@@ -172,7 +172,8 @@ while ($true) {
 }
 "@
             # Set-Content statt Pipe
-            Set-Content -Path $VDF_PFAD -Value $vdfContent -Encoding ascii -Force
+            $utf8NoBom = New-Object System.Text.UTF8Encoding $false
+			[System.IO.File]::WriteAllText($VDF_PFAD, $vdfContent, $utf8NoBom)
 
             if (Test-Path $STEAMCMD_PFAD) {
                 Start-Process -FilePath $STEAMCMD_PFAD -ArgumentList "+login Bonbonkocher", "+workshop_build_item `"$VDF_PFAD`"", "+quit" -Wait
@@ -185,7 +186,7 @@ while ($true) {
         
         "v" {
             $aktuelleVersion = (Read-Host "Neue Version").Trim()
-            Set-Content -Path $DATEI_VERSION -Value$aktuelleVersion -Encoding utf8 -Force
+            Set-Content -Path $DATEI_VERSION -Value $aktuelleVersion -Encoding utf8 -Force
             $letzteAktion = "Version -> $aktuelleVersion"
             Write-Host "Version gespeichert." -ForegroundColor Green
             Start-Sleep -Milliseconds 800
@@ -193,7 +194,7 @@ while ($true) {
         
         "n" {
             $MOD_NAME = (Read-Host "Neuer Projekt-Name").Trim()
-            Set-Content -Path $DATEI_NAME -Value$MOD_NAME -Encoding utf8 -Force
+            Set-Content -Path $DATEI_NAME -Value $MOD_NAME -Encoding utf8 -Force
             $letzteAktion = "Name -> $MOD_NAME"
             Write-Host "Name gespeichert." -ForegroundColor Green
             Start-Sleep -Milliseconds 800
