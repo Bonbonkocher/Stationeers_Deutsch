@@ -685,6 +685,13 @@ Water comes in many forms. At least one {THING:ItemWaterBottle} is supplied to S
 Your thirst rate can be adjusted set on the main settings menu by adjusting your Hunger/Hydration rate slider.
 </Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>SanitationPage</Key>
+      <Title>Sanitation</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>Over time satisfying {LINK:HydrationPage;thirst} and {LINK:HungerPage;hunger} of Stationeers will cause them to need to relieve themselves. The {LINK:ODA;ODA} recommends that Stationeers set up a {THING:StructureToiletModern} within their base after landing, requiring an atmosphere and {GAS:Water} to operate. This will output {GAS:PollutedWater} which can be recycled using a {THING:StructureWaterPurifier} and then used for other purposes, such as {LINK:FarmingPage;farming} or {LINK:HydrationPage;drinking}. The {THING:ItemWasteBagEmpty} can be used as a portable alternative to the toilet but the contents are not recoverable.
+{LIST_OF_SANITATION}</Text>
+    </StationpediaPage>
 
     <StationpediaPage>
       <Key>EVAPage</Key>

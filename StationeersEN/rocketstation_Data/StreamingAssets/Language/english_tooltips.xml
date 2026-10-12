@@ -100,6 +100,18 @@
       <Value>Zero Gravity</Value>
     </Record>
     <Record>
+      <Key>StatusIconGravityDesc</Key>
+      <Value>Currently experiencing weightlessness</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAccelerationName</Key>
+      <Value>Acceleration</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAccelerationDesc</Key>
+      <Value>Undergoing excessive G-Forces</Value>
+    </Record>
+    <Record>
       <Key>StatusIconJetpackName</Key>
       <Value>Jetpack Active</Value>
     </Record>
@@ -178,6 +190,26 @@
     <Record>
       <Key>StatusIconHygieneName</Key>
       <Value>Current Hygiene</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconSanitationName</Key>
+      <Value>Sanitation Need</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconSoiledName</Key>
+      <Value>Soiled</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHealingName</Key>
+      <Value>Healing</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStimulantName</Key>
+      <Value>Stimulant</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStunNotice</Key>
+      <Value>Stun</Value>
     </Record>
 	<Record>
       <Key>DeconstructCanisterFull</Key>

@@ -1429,7 +1429,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemKitConsole</Key>
-      <Value>Kit (Consoles)</Value>
+      <Value>Kit (Console)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -1569,7 +1569,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemPillStun</Key>
-      <Value>Pill (Paralysis)</Value>
+      <Value>Pill (Stun)</Value>
       <Description>Through rarely publicized, the existence of this pill is an open secret. For use when all else has failed, the Sayonara Suppository immobilizes and rapidly ends the average {LINK:Stationeers;Stationeer}. The delivery mode ensures that if a Stationeer chooses to take this pill, they really have to want it.</Description>
     </RecordThing>
     <RecordThing>
@@ -1713,62 +1713,82 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemSprayCanBlack</Key>
       <Value>Spray Paint (Black)</Value>
-      <Description>Go classic, clandestine or just plain Gothic with black paint, which can be applied to most items. Each can has 20 uses.</Description>
+      <Description>Black spray paint. Using it with a spray gun will extend the usage greatly.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanMetallicObsidian</Key>
+      <Value>Spray Paint (Obsidian)</Value>
+      <Description>Metallic obsidian spray paint. Using it with a spray gun will extend the usage greatly.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanMetallicSilver</Key>
+      <Value>Spray Paint (Silver)</Value>
+      <Description>Metallic silver spray paint. Using it with a spray gun will extend the usage greatly.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanMetallicBronze</Key>
+      <Value>Spray Paint (Bronze)</Value>
+      <Description>Metallic bronze spray paint. Using it with a spray gun will extend the usage greatly.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanMetallicGold</Key>
+      <Value>Spray Paint (Gold)</Value>
+      <Description>Metallic gold spray paint. Using it with a spray gun will extend the usage greatly.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBlue</Key>
       <Value>Spray Paint (Blue)</Value>
-      <Description>What kind of a color is blue? The kind of of color that says, 'Hey, what about me?'</Description>
+      <Description>Blue spray paint. Using it with a spray gun will extend the usage greatly.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBrown</Key>
       <Value>Spray Paint (Brown)</Value>
-      <Description>In more artistic {LINK:Stationeers;Stationeers} circles, the absence of brown is often lamented, but seldom changed.</Description>
+      <Description>Brown spray paint. Using it with a spray gun will extend the usage greatly.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanGreen</Key>
       <Value>Spray Paint (Green)</Value>
-      <Description>Green is the color of life, and longing. Paradoxically, it's also the color of envy, and tolerance. It denotes sickness, youth, and wealth. But really, it's just what light does at around 500 billionths of a meter.</Description>
+      <Description>Green spray paint. Using it with a spray gun will extend the usage greatly.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanGrey</Key>
       <Value>Spray Paint (Grey)</Value>
-      <Description>Arguably the most popular color in the universe, grey was invented so designers had something to do.</Description>
+      <Description>Grey spray paint. Using it with a spray gun will extend the usage greatly.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanKhaki</Key>
       <Value>Spray Paint (Khaki)</Value>
-      <Description>Not so much a single color, as a category of boredom, khaki is the pigmentation equivalent of a mild depressive episode.</Description>
+      <Description>Khaki spray paint. Using it with a spray gun will extend the usage greatly.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanOrange</Key>
       <Value>Spray Paint (Orange)</Value>
-      <Description>Orange is fun, but also suggestive of hazards. Sitting proudly in the middle of the visual spectrum, it has nothing to prove.</Description>
+      <Description>Orange spray paint. Using it with a spray gun will extend the usage greatly.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanPink</Key>
       <Value>Spray Paint (Pink)</Value>
-      <Description>With the invention of enduring chemical dyes, the 20th century bestowed associations with innocence and tenderness upon this pale tint of red. Yet classically, it was the color of seduction and eroticism. Things change.</Description>
+      <Description>Pink spray paint. Using it with a spray gun will extend the usage greatly.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanPurple</Key>
       <Value>Spray Paint (Purple)</Value>
-      <Description>Purple is a curious color. You need to be careful with purple. It can be very good, or go horribly, horribly wrong.</Description>
+      <Description>Purple spray paint. Using it with a spray gun will extend the usage greatly.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanRed</Key>
       <Value>Spray Paint (Red)</Value>
-      <Description>The king of colors, red is perhaps the defining tone of the universe. Linked to blood, royalty, fire and damnation, it is the chromatic expression of power.</Description>
+      <Description>Red spray paint. Using it with a spray gun will extend the usage greatly.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanWhite</Key>
       <Value>Spray Paint (White)</Value>
-      <Description>White looks clean, sharp and nice. But {LINK:Stationeers;Stationeering} can be a dirty job. White tends to scuff.</Description>
+      <Description>White spray paint. Using it with a spray gun will extend the usage greatly.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanYellow</Key>
       <Value>Spray Paint (Yellow)</Value>
-      <Description>A caricature of light itself, yellow lacks the self-confidence of red, or the swagger of purple. It's less fun than orange, but less emotionally limp than khaki. It's hard to know when yellow is appropriate, but it persists as a primary color regardless. Suggesting that yellow gonna yellow, no matter what anyone thinks.</Description>
+      <Description>Yellow spray paint. Using it with a spray gun will extend the usage greatly.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSteelFrames</Key>
@@ -1811,6 +1831,13 @@ It may not be elegant, but {THING:ItemOxite} and {THING:ItemVolatiles} can be co
       <Value>Tool Belt</Value>
       <Description>If there's one piece of equipment that embodies {LINK:Stationeers;Stationeer} life above all else, it's the humble toolbelt (Editor's note: a recent {LINK:ODA;ODA} survey of iconic Stationeer equipment also rated the smoking, toxic ruins of an over-pressurized {THING:StructureFurnace} lying amid the charred remains of your latest base very highly).
 Designed to meet the most strict-ish ODA safety standards, the toolbelt's eight slots hold one thing: tools, and {THING:ItemCableCoil}. Not to be confused with the {THING:ItemMiningBelt}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCableToolBelt</Key>
+      <Value>Electrical Belt</Value>
+      <Description>A belt with two tool slots and six slots restricted to {THING:ItemCableCoil}, {THING:ItemCableCoilHeavy} and {THING:ItemCableCoilSuperHeavy}.
+
+When worn, the belt reloads the {THING:ItemCableGun} with a matching coil once the gun's own coil is empty, and catches deconstructed cable that will not fit in your hands.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemUraniumOre</Key>
@@ -5437,6 +5464,11 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
       <Description>The first piece to place when building a rocket. Rockets can be constructed and/or landed here. Each Launch Mount will be allocated a slot on the Space Map and assigned a Location Code.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>StructureLaunchMountOrbital</Key>
+      <Value>Orbital Launch Mount</Value>
+      <Description>A launch mount deployed in low orbit using a {THING:DynamicOrbitalLaunchMountPayload} carried in a {THING:StructureRocketLargePayloadBay}. Rockets can be constructed and/or landed here. Each Orbital Launch Mount will be allocated a slot on the Space Map and assigned a Location Code.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitAirlockGate</Key>
       <Value>Kit (Hangar Door)</Value>
       <Description />
@@ -6670,22 +6702,22 @@ Finished - 4
     <RecordThing>
       <Key>StructureReinforcedCompositeWindow</Key>
       <Value>Reinforced Window (Composite)</Value>
-      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to high pressure differentials.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedCompositeWindowSteel</Key>
       <Value>Reinforced Window (Composite Steel)</Value>
-      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to high pressure differentials.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedWallPaddedWindow</Key>
       <Value>Reinforced Window (Padded)</Value>
-      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to high pressure differentials.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedWallPaddedWindowThin</Key>
       <Value>Reinforced Window (Thin)</Value>
-      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to high pressure differentials.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemStelliteGlassSheets</Key>
@@ -6956,13 +6988,13 @@ Highly sensitive to temperature, nitrice will begin to melt as soon as it is min
     </RecordThing>
     <RecordThing>
       <Key>StructureH2Combustor</Key>
-      <Value>Combustor</Value>
-      <Description>The Combustor allows for controlled combustion of volatile gasses. When fed with {GAS:Hydrogen} and {GAS:Oxygen} it will output {GAS:Steam} which can be cooled for drinking water or hydroponics.</Description>
+      <Value>Combustor (Deprecated)</Value>
+      <Description>This device is deprecated. Use the {THING:StructureCombustor} instead.</Description>
     </RecordThing>
     <RecordThing>
       <Key>H2Combustor</Key>
-      <Value>Combustor</Value>
-      <Description>The Combustor allows for controlled combustion of volatile gasses. When fed with {GAS:Hydrogen} and {GAS:Oxygen} it will output {GAS:Steam} which can be cooled for drinking water or hydroponics.</Description>
+      <Value>Combustor (Deprecated)</Value>
+      <Description>This device is deprecated. Use the {THING:StructureCombustor} instead.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeRadiatorFlat</Key>
@@ -8164,6 +8196,11 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemKitLaunchMount</Key>
       <Value>Kit (Launch Mount)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLaunchMountOrbital</Key>
+      <Value>Kit (Orbital Launch Mount)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9633,6 +9670,16 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Kit (Payload Delivery Container)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>DynamicOrbitalLaunchMountPayload</Key>
+      <Value>Orbital Launch Mount Payload</Value>
+      <Description>When attached to a {THING:StructureRocketLargePayloadBay} the {THING:DynamicOrbitalLaunchMountPayload} can be deployed in Low Orbit, where it unpacks into a {THING:StructureLaunchMountOrbital}. Rockets can then be constructed and landed there, and crewed rockets can travel between it and launch mounts on the surface.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitOrbitalLaunchMountPayload</Key>
+      <Value>Kit (Orbital Launch Mount Payload)</Value>
+      <Description>Constructs a {THING:DynamicOrbitalLaunchMountPayload} that can be carried to Low Orbit in a {THING:StructureRocketLargePayloadBay}.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureRocketLargePayloadBay</Key>
       <Value>Payload Bay Large</Value>
       <Description>The {THING:StructureRocketLargePayloadBay} functions as an attachment point for the {THING:DynamicPayloadDeliveryContainer}. Set the deploy location by setting the PositionX and PositionZ logic variables on the device. Use the deploy action on the rocket location panel to deploy an attached payload. The Open logic variable must be set to 1 to commence payload deploy.</Description>
@@ -9649,7 +9696,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <RecordThing>
       <Key>StructureCrewModule</Key>
       <Value>Crew Module</Value>
-      <Description />
+      <Description>Crew compartment for rockets.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCrewModuleCableConnectorA</Key>
@@ -9659,6 +9706,21 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <RecordThing>
       <Key>StructureCrewModuleCableConnectorB</Key>
       <Value>Crew Module Cable Connector B</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleChair</Key>
+      <Value>Crew Module Chair</Value>
+      <Description>Seat for crewing a rocket. While the seat is occupied the rocket can only travel between launch mounts, and the seat can only be exited while the rocket is landed on one.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleScreen</Key>
+      <Value>Crew Module Screen</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewParts</Key>
+      <Value>Kit (Crew Parts)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9861,6 +9923,313 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Medium Filter (Silanol)</Value>
       <Description />
     </RecordThing>
+    <RecordThing>
+      <Key>StructureEngineMountTypeE1</Key>
+      <Value>Engine Mount (Type E1)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureEngineMountTypeE2</Key>
+      <Value>Engine Mount (Type E2)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFairingTypeE1</Key>
+      <Value>Fairing (Type E1)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFuselageTypeE1</Key>
+      <Value>Fuselage (Type E1)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFuselageTypeE</Key>
+      <Value>Kit (Fuselage Type E)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorEpi</Key>
+      <Value>Auto-Injector (Stim)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorHealth</Key>
+      <Value>Auto-Injector (Health)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorStun</Key>
+      <Value>Auto-Injector (Stun)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorDex</Key>
+      <Value>Injector Dex</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWaterPacket</Key>
+      <Value>Water Packet</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleFuselage</Key>
+      <Value>Crew Module Fuselage (Type C)</Value>
+      <Description>Streamlined crew compartment for rockets. Board by interacting with the module.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWasteBagEmpty</Key>
+      <Value>Waste Bag</Value>
+      <Description>A disposable bag that can be used to clear {LINK:SanitationPage;sanitation} needs. Cannot be used when wearing the {SLOT:Suit}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWasteBagFilled</Key>
+      <Value>Waste Bag (Filled)</Value>
+      <Description>A partially or completely used disposable bag that can be used to clear {LINK:SanitationPage;sanitation} needs, so long as is there is room remaining. Cannot be used when wearing the {SLOT:Suit}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureToiletModern</Key>
+      <Value>Modern Toilet</Value>
+      <Description>A device for reducing {LINK:SanitationPage;sanitation} needs. Requires {GAS:Water} and outputs {GAS:PollutedWater} from those who use it.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitToilet</Key>
+      <Value>Kit (Toilet)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>OrganStomach</Key>
+      <Value>Stomach</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModulePassiveVent</Key>
+      <Value>Crew Module Passive Vent</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleActiveVent</Key>
+      <Value>Crew Module Active Vent</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWaterPacket</Key>
+      <Value>Water Packet</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWasteBagEmpty</Key>
+      <Value>Waste Bag</Value>
+      <Description>A disposable bag that can be used to clear {LINK:SanitationPage;sanitation} needs. Cannot be used when wearing the {SLOT:Suit}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWasteBagFilled</Key>
+      <Value>Waste Bag (Filled)</Value>
+      <Description>A partially or completely used disposable bag that can be used to clear {LINK:SanitationPage;sanitation} needs, so long as is there is room remaining. Cannot be used when wearing the {SLOT:Suit}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSurvivalBelt</Key>
+      <Value>Survival Belt</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleFuselageSimple</Key>
+      <Value>Crew Module Fuselage (Type A)</Value>
+      <Description>Compact crew compartment for rockets. Board by interacting with the module.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemClothingBagOveralls_Paintable</Key>
+      <Value>Overalls (Paintable)</Value>
+      <Description>Overalls that can be coloured using the Spray Paints.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicRocketUplinkCompact</Key>
+      <Value>Logic Uplink (Compact)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleChair</Key>
+      <Value>Kit (Crew Module Chair)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleCableConnector</Key>
+      <Value>Kit (Crew Module Cable Connector)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleScreen</Key>
+      <Value>Kit (Crew Module Screen)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewBulkhead</Key>
+      <Value>Crew Bulkhead</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleElectronics</Key>
+      <Value>Kit (Crew Electronics)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleLight</Key>
+      <Value>Crew Light</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight3</Key>
+      <Value>Cable (Straight 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight3Burnt</Key>
+      <Value>Burnt Cable (Straight 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight5</Key>
+      <Value>Cable (Straight 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight5Burnt</Key>
+      <Value>Burnt Cable (Straight 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight10</Key>
+      <Value>Cable (Straight 10)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight10Burnt</Key>
+      <Value>Burnt Cable (Straight 10)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_ArrowPiece</Key>
+      <Value>Landingpad Arrow</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5</Key>
+      <Value>Solar Panel (Dual 1x5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5Reinforced</Key>
+      <Value>Solar Panel (Heavy Dual 1x5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED1x2Side</Key>
+      <Value>LED Display (Medium Side)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED1x2Back</Key>
+      <Value>LED Display (Medium Back)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5ReinforcedSingle</Key>
+      <Value>Solar Panel (Heavy 1x5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureH2Combustor1</Key>
+      <Value>H2 Combustor1</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCombustor</Key>
+      <Value>Combustor</Value>
+      <Description>The Combustor performs controlled combustion of a mixture drawn from a gas input and a liquid input. A control wheel sets the ratio taken from each, much like the {THING:StructureGasMixer}, and the combined mixture is combusted before being passed to the output.
+
+What the Combustor produces depends entirely on what is fed into it. See the {LINK:GasPage;Gasses} page to find what each combination combusts into.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5Single</Key>
+      <Value>Solar Panel (1x5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPowerPylon</Key>
+      <Value>Kit (Power Pylon)</Value>
+      <Description>Builds every part of a power pylon line.
+
+Two kits raise a {THING:StructurePowerPylon}, and one kit places a {THING:StructurePowerPylonTerminus}.
+
+The line itself is strung separately, using {THING:ItemCableCoilSuperHeavy}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerPylon</Key>
+      <Value>Power Pylon</Value>
+      <Description>Carries power across ground where laying cable is impractical.
+
+Pylons are strung with {THING:ItemCableCoilSuperHeavy}. Hold a coil, click one node to start a run and another node to finish it. A single run reaches 40m and costs between 5 and 30 coil depending on how far it spans, and the cable must have a clear path, so terrain, walls and structures between the two nodes will refuse the link.
+
+A pylon carries two nodes and each node accepts one run, so a pylon passes a line onward rather than branching it. Cut a run with the {THING:ItemWireCutters} to recover its cable; deconstructing a pylon returns the cable of every run still attached.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerPylonInput</Key>
+      <Value>Power Pylon Input</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerPylonOutput</Key>
+      <Value>Power Pylon Output</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCableGun</Key>
+      <Value>Cable Gun</Value>
+      <Description>Create long straight cable sections easily.
+
+Works with {THING:ItemCableCoil}, {THING:ItemCableCoilHeavy} and {THING:ItemCableCoilSuperHeavy}. The Cable Gun will use the long cable variant pieces wherever possible.
+
+The Cable Gun cannot merge its cables will cables that are already placed.
+
+A run can only be as long as the coil loaded in the gun allows; coils on an {THING:ItemCableToolBelt} do not extend it. When the loaded coil runs out, a matching coil from the belt is loaded into the gun automatically.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH3</Key>
+      <Value>Heavy Cable (Straight 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH3Burnt</Key>
+      <Value>Burnt Heavy Cable (Straight 3)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH5</Key>
+      <Value>Heavy Cable (Straight 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH5Burnt</Key>
+      <Value>Burnt Heavy Cable (Straight 5)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH10</Key>
+      <Value>Heavy Cable (Straight 10)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH10Burnt</Key>
+      <Value>Burnt Heavy Cable (Straight 10)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerPylonTerminus</Key>
+      <Value>Power Pylon Terminus</Value>
+      <Description>Ties a pylon line into an ordinary cable network.
+
+The terminus counts as a length of super heavy cable, so everything reachable through the line becomes one network with everything wired to the terminus.
+
+It has a single node, which takes one run of {THING:ItemCableCoilSuperHeavy}. A terminus cannot link straight to another terminus; the run has to pass through at least one {THING:StructurePowerPylon}.</Description>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -9926,6 +10295,10 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>Battery</Key>
       <Value>Battery</Value>
+    </Record>
+    <Record>
+      <Key>CableAmmo</Key>
+      <Value>Cable Ammo</Value>
     </Record>
     <Record>
       <Key>Egg</Key>
@@ -10130,6 +10503,14 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>ProgrammableChip</Key>
       <Value>Programmable Chip</Value>
+    </Record>
+    <Record>
+      <Key>AutoInjector</Key>
+      <Value>Auto-Injector</Value>
+    </Record>
+    <Record>
+      <Key>Stomach</Key>
+      <Value>Stomach</Value>
     </Record>
     <Record>
       <Key>CreditCard</Key>
@@ -13628,6 +14009,10 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Umbilicals</Value>
     </Record>
     <Record>
+      <Key>Sanitation</Key>
+      <Value>Sanitation</Value>
+    </Record>
+    <Record>
       <Key>RocketPayloadCategory</Key>
       <Value>Rocket Payloads</Value>
     </Record>
@@ -14470,6 +14855,10 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>ButtonOk</Key>
       <Value>OK</Value>
+    </Record>
+    <Record>
+      <Key>ServerAnnouncement</Key>
+      <Value>Announcement</Value>
     </Record>
     <Record>
       <Key>InputPassword</Key>
@@ -17047,7 +17436,6 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Key>LogicTypeRatioLiquidOzoneOutput2</Key>
       <Value>The ratio of {GAS:LiquidOzone} in device's Output2 Atmosphere</Value>
     </Record>
-
     <Record>
       <Key>AppearanceButtonRandomize</Key>
       <Value>Randomize</Value>
@@ -18278,7 +18666,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>ScriptCommandBnaal</Key>
-      <Value>Branch to line d if abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) and store next line number in ra</Value>
+      <Value>Branch to line d if abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8) and store next line number in ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBltzal</Key>
@@ -19488,6 +19876,18 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
       <Value>Hydration Critical</Value>
     </Record>
     <Record>
+      <Key>SanitationCaution</Key>
+      <Value>Sanitation Caution</Value>
+    </Record>
+    <Record>
+      <Key>SanitationCritical</Key>
+      <Value>Sanitation Critical</Value>
+    </Record>
+    <Record>
+      <Key>SoiledCritical</Key>
+      <Value>Soiled</Value>
+    </Record>
+    <Record>
       <Key>MoodLow</Key>
       <Value>Mood Low</Value>
     </Record>
@@ -19695,7 +20095,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>MoleSteamDescription</Key>
-      <Value>Evaporated {GAS:Water}. It can be created by rasing the temperature of {GAS:Water} to its boiling point. When introduced into a pipe {GAS:Steam} will condense back into {GAS:Water} if it's temperature is below it's boiling point. Steam can be created by combusting {GAS:Methane} and oxygen using the {THING:H2Combustor}</Value>
+      <Value>Evaporated {GAS:Water}. It can be created by raising the temperature of {GAS:Water} to its boiling point. When introduced into a pipe {GAS:Steam} will condense back into {GAS:Water} if it's temperature is below it's boiling point. Steam can be created by combusting {GAS:Hydrogen} and {GAS:Oxygen} using the {THING:StructureCombustor}</Value>
     </Record>
     <Record>
       <Key>MoleHydrazineDescription</Key>
@@ -20093,6 +20493,14 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Cancel</Value>
     </Record>
     <Record>
+      <Key>RemoveNodesOfTypeButton</Key>
+      <Value>Delete Nodes Of Type</Value>
+    </Record>
+    <Record>
+      <Key>RemoveNodesOfTypeText</Key>
+      <Value>This will delete all nodes at this location of the selected type. Are you sure?</Value>
+    </Record>
+    <Record>
       <Key>ClearDestinationButton</Key>
       <Value>Clear Destination</Value>
     </Record>
@@ -20131,6 +20539,10 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>StationpediaInstructions</Key>
       <Value>Instructions</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaBindings</Key>
+      <Value>Bindings</Value>
     </Record>
     <Record>
       <Key>StationpediaInternalMemory</Key>
@@ -21594,6 +22006,10 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Zero Gee</Value>
     </Record>
     <Record>
+      <Key>StatusWarningAcceleration</Key>
+      <Value>Acceleration</Value>
+    </Record>
+    <Record>
       <Key>StatusNoticeActiveHandOff</Key>
       <Value>Active Hand Off</Value>
     </Record>
@@ -21612,6 +22028,14 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>StatusNoticeJetpackOn</Key>
       <Value>Jetpack On</Value>
+    </Record>
+    <Record>
+      <Key>ConnectedSlot</Key>
+      <Value>Screen Connection</Value>
+    </Record>
+    <Record>
+      <Key>StatusNoticeHealingNotice</Key>
+      <Value>Healing</Value>
     </Record>
     <Record>
       <Key>StatusNoticeLightOff</Key>
@@ -21882,6 +22306,10 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Airlock Supplies</Value>
     </Record>
     <Record>
+      <Key>SpawnDataNavigationPackage</Key>
+      <Value>Navigation Package</Value>
+    </Record>
+    <Record>
       <Key>SpawnDataAdvancedAirlockSupplies</Key>
       <Value>Advanced Airlock Supplies</Value>
     </Record>
@@ -21900,6 +22328,10 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>SpawnDataVolatilesCanister</Key>
       <Value>Volatiles Canister</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataMethaneCanister</Key>
+      <Value>Methane Canister</Value>
     </Record>
     <Record>
       <Key>SpawnDataHydroponicsSupplies</Key>
@@ -22068,6 +22500,10 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>AshStorm</Key>
       <Value>Ash Storm</Value>
+    </Record>
+    <Record>
+      <Key>FireStorm</Key>
+      <Value>Fire Storm</Value>
     </Record>
     <Record>
       <Key>RainWeather</Key>
@@ -22250,6 +22686,10 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Ship Repair Package</Value>
     </Record>
     <Record>
+      <Key>BuyDataCryogenicsSupplyCrate</Key>
+      <Value>Cryogenics Supply Crate</Value>
+    </Record>
+    <Record>
       <Key>BuyDataHardsuitPackage</Key>
       <Value>Hardsuit Package</Value>
     </Record>
@@ -22274,8 +22714,8 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Regular Fuel Mix</Value>
     </Record>
     <Record>
-        <Key>BuyDataBulkCarbonDioxide</Key>
-        <Value>Carbon Dioxide</Value>
+      <Key>BuyDataBulkCarbonDioxide</Key>
+      <Value>Carbon Dioxide</Value>
     </Record>
     <Record>
       <Key>BuyDataBulkCarbonDioxideVenus</Key>
@@ -22418,8 +22858,16 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Bulk Nitrous Oxide</Value>
     </Record>
     <Record>
+      <Key>SellDataBulkOzone</Key>
+      <Value>Bulk Ozone</Value>
+    </Record>
+    <Record>
       <Key>SellDataBulkDirtyVolatiles</Key>
       <Value>Bulk Dirty Volatiles</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkHydrazine</Key>
+      <Value>Bulk Hydrazine</Value>
     </Record>
     <Record>
       <Key>SellDataSteam</Key>
@@ -22428,6 +22876,10 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>SellDataOxygenCanister</Key>
       <Value>Oxygen Canister</Value>
+    </Record>
+    <Record>
+      <Key>SellDataHydrazineCanister</Key>
+      <Value>Hydrazine Canister</Value>
     </Record>
     <Record>
       <Key>SellDataFuelCanister</Key>
@@ -22652,6 +23104,38 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>TraderPlanetaryProduce</Key>
       <Value>Planetary Produce</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicCare</Key>
+      <Value>Cosmic Care</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarMedical</Key>
+      <Value>Stellar Medical Supplies</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitalApothecary</Key>
+      <Value>Orbital Apothecary</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVitals</Key>
+      <Value>Void Vitals</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNursing</Key>
+      <Value>Nebula Nursing</Value>
+    </Record>
+    <Record>
+      <Key>TraderAsteroidAidStation</Key>
+      <Value>Asteroid Aid Station</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarInfirmary</Key>
+      <Value>Interstellar Infirmary</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGauze</Key>
+      <Value>Galactic Gauze</Value>
     </Record>
     <Record>
       <Key>TraderGreenFutures</Key>
@@ -23072,7 +23556,7 @@ Thank you for your understanding, and we can’t wait for you to experience what
     </Record>
     <Record>
       <Key>StationpediaMetabolicSuspensionDesc</Key>
-      <Value>When powered this device will suspend the metabolism of the occupand ensuring they  no longer consume food or water</Value>
+      <Value>When powered, this device will suspend the metabolism of the occupant, ensuring they no longer consume food or water</Value>
     </Record>
     <Record>
       <Key>StationpediaCryogenicRegenerationDesc</Key>
@@ -23093,6 +23577,18 @@ Thank you for your understanding, and we can’t wait for you to experience what
     <Record>
       <Key>StationpediaFermentable</Key>
       <Value>Fermentable:</Value>
+    </Record>
+    <Record>
+      <Key>ButtonSurfaceScan</Key>
+      <Value>Surface Scan</Value>
+    </Record>
+    <Record>
+      <Key>ButtonTransfer</Key>
+      <Value>Transfer</Value>
+    </Record>
+    <Record>
+      <Key>RemoveNodeOfTypeButton</Key>
+      <Value>Remove Node Type</Value>
     </Record>
   </Interface>
   <Colors>
@@ -23143,6 +23639,22 @@ Thank you for your understanding, and we can’t wait for you to experience what
     <Record>
       <Key>ColorPurple</Key>
       <Value>Purple</Value>
+    </Record>
+    <Record>
+      <Key>ColorObsidian</Key>
+      <Value>Obsidian</Value>
+    </Record>
+    <Record>
+      <Key>ColorSilver</Key>
+      <Value>Silver</Value>
+    </Record>
+    <Record>
+      <Key>ColorBronze</Key>
+      <Value>Bronze</Value>
+    </Record>
+    <Record>
+      <Key>ColorGold</Key>
+      <Value>Gold</Value>
     </Record>
   </Colors>
   <Keys>
@@ -28213,19 +28725,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>StationpediaLowFoodQuality</Key>
-      <Value>Low (-25% hydration capacity)</Value>
+      <Value>&lt;color=red&gt;Low&lt;/color&gt; (-25% hydration capacity)</Value>
     </Record>
     <Record>
       <Key>StationpediaOkFoodQuality</Key>
-      <Value>Ok</Value>
+      <Value>&lt;color=orange&gt;Ok&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>StationpediaGoodFoodQuality</Key>
-      <Value>Good (+25% hydration capacity)</Value>
+      <Value>&lt;color=yellow&gt;Good&lt;/color&gt; (+25% hydration capacity)</Value>
     </Record>
     <Record>
       <Key>StationpediaSuperiorFoodQuality</Key>
-      <Value>Best (+75% hydration capacity)</Value>
+      <Value>&lt;color=green&gt;Best&lt;/color&gt; (+75% hydration capacity)</Value>
     </Record>
     <Record>
       <Key>TooltipLowFoodQuality</Key>
@@ -28242,6 +28754,26 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>TooltipSuperiorFoodQuality</Key>
       <Value>Best &lt;color=green&gt;+75% hydration&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>FoodQualityLow</Key>
+      <Value>Low</Value>
+    </Record>
+    <Record>
+      <Key>FoodQualityOk</Key>
+      <Value>Ok</Value>
+    </Record>
+    <Record>
+      <Key>FoodQualityGood</Key>
+      <Value>Good</Value>
+    </Record>
+    <Record>
+      <Key>FoodQualityBest</Key>
+      <Value>Best</Value>
+    </Record>
+    <Record>
+      <Key>TooltipFoodQuality</Key>
+      <Value>Food Quality {LOCAL:Quality}</Value>
     </Record>
     <Record>
       <Key>WaterPurifierCharcoalErrorMsg</Key>
@@ -30314,12 +30846,176 @@ Status: {LOCAL:StatusValue}</Value>
       <Value>{LOCAL:Payload} Can only be deployed in Low Orbit</Value>
     </Record>
     <Record>
+      <Key>RocketDeployFailNoFreePosition</Key>
+      <Value>{LOCAL:Payload} All deploy positions in Low Orbit are occupied</Value>
+    </Record>
+    <Record>
+      <Key>RocketCannotExitSeatInFlight</Key>
+      <Value>Cannot exit the seat unless the rocket is landed on a launch mount</Value>
+    </Record>
+    <Record>
+      <Key>RocketCrewModuleMannedTravel</Key>
+      <Value>Cannot travel here while the crew module is manned</Value>
+    </Record>
+    <Record>
       <Key>RocketDeployFailNoPayload</Key>
       <Value>No payload to deploy</Value>
     </Record>
     <Record>
       <Key>ConstructionBlockedByDynamic</Key>
       <Value>Construction blocked by {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>Waste</Key>
+      <Value>Waste</Value>
+    </Record>
+    <Record>
+      <Key>Use</Key>
+      <Value>Use</Value>
+    </Record>
+    <Record>
+      <Key>Healing</Key>
+      <Value>Healing</Value>
+    </Record>
+    <Record>
+      <Key>SanitationNeed</Key>
+      <Value>Sanitation Need</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotInPosition</Key>
+      <Value>{LOCAL:Occupant} is not close enough to use</Value>
+    </Record>
+    <Record>
+      <Key>DeviceCannotWhenWearing</Key>
+      <Value>Cannot use wearing {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>NoSanitationNeed</Key>
+      <Value>{LOCAL:Human} has no sanitation need right now</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionSgn</Key>
+      <Value>Stores the sign of a in the register: -1 if a is negative, 1 if positive, and 0 if a is zero (or not a number).</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionClamp</Key>
+      <Value>Stores a clamped to the inclusive range [min, max] in the register provided.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionRol</Key>
+      <Value>Performs a bitwise left rotation on the binary representation of a by b places, wrapping the bits shifted out of the most significant position back into the least significant position.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionRor</Key>
+      <Value>Performs a bitwise right rotation on the binary representation of a by b places, wrapping the bits shifted out of the least significant position back into the most significant position.</Value>
+    </Record>
+    <Record>
+      <Key>TrackablePlayerBodyBag</Key>
+      <Value>{LOCAL:UserName}'s Body Bag</Value>
+    </Record>
+    <Record>
+      <Key>Progress</Key>
+      <Value>Progress</Value>
+    </Record>
+    <Record>
+      <Key>DistanceToBedRock</Key>
+      <Value>Distance to Bedrock</Value>
+    </Record>
+    <Record>
+      <Key>Defibrillate</Key>
+      <Value>Defibrillate</Value>
+    </Record>
+    <Record>
+      <Key>DefibrillatorNotOperable</Key>
+      <Value>Defibrillator is not operable for this action.</Value>
+    </Record>
+    <Record>
+      <Key>NoPartnerUmbilical</Key>
+      <Value>No partner umbilical connected</Value>
+    </Record>
+    <Record>
+      <Key>RocketScannerWrongHeadType</Key>
+      <Value>{LOCAL:Thing} scanning head is the wrong type for action you are trying to do</Value>
+    </Record>
+    <Record>
+      <Key>RocketSurfaceScanActionInfo</Key>
+      <Value>Sending scan data to connected map motherboards. Scanner: {LOCAL:OnOff}</Value>
+    </Record>
+    <Record>
+      <Key>RocketActionSurfaceScan</Key>
+      <Value>Scanning Surface</Value>
+    </Record>
+    <Record>
+      <Key>RocketActionTransfer</Key>
+      <Value>Transfering Resources</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotEnoughWater</Key>
+      <Value>Not enough water</Value>
+    </Record>
+    <Record>
+      <Key>DeviceWaterTooHot</Key>
+      <Value>Water is too hot</Value>
+    </Record>
+    <Record>
+      <Key>DeviceWaterTooCold</Key>
+      <Value>Water is too cold</Value>
+    </Record>
+    <Record>
+      <Key>DeviceWaterPolluted</Key>
+      <Value>Water is polluted</Value>
+    </Record>
+    <Record>
+      <Key>DeviceOutputFull</Key>
+      <Value>&lt;color=yellow&gt;Output&lt;/color&gt; network is full</Value>
+    </Record>
+    <Record>
+      <Key>DeviceMinimumPressure</Key>
+      <Value>World atmosphere must be at least {LOCAL:PRESSURE}</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticSanitation</Key>
+      <Value>Sanitation</Value>
+    </Record>
+    <Record>
+      <Key>FermenterItemsLeftToFerment</Key>
+      <Value>Fermenting &lt;color=yellow&gt;{LOCAL:Amount}&lt;/color&gt; × &lt;color=green&gt;{LOCAL:Value} {LOCAL:Percentage}%&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>FermenterWillProduce</Key>
+      <Value>Will produce &lt;color=purple&gt;{LOCAL:Value}&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>FermenterInputIsEmpty</Key>
+      <Value>No Fermentable item in Input.</Value>
+    </Record>
+    <Record>
+      <Key>RocketNoAvailableSeat</Key>
+      <Value>No seat available in crew module</Value>
+    </Record>
+    <Record>
+      <Key>NoAvailableBattery</Key>
+      <Value>No battery available. Battery must be turned on and have charge</Value>
+    </Record>
+    <Record>
+      <Key>PowerTransferActionInfo</Key>
+      <Value>Transferring Power. Source {LOCAL:SourcePercent}. Target {LOCAL:TargetPercent}</Value>
+    </Record>
+    <Record>
+      <Key>NoUmbilicalForTransfer</Key>
+      <Value>No umbilical to transfer from</Value>
+    </Record>
+    <Record>
+      <Key>GasTransferActionInfo</Key>
+      <Value>Transferring Gasses and Liquids. </Value>
+    </Record>
+    <Record>
+      <Key>ActionSource</Key>
+      <Value>Source </Value>
+    </Record>
+    <Record>
+      <Key>ActionTarget</Key>
+      <Value>Target </Value>
     </Record>
   </GameStrings>
   <GameTip />
