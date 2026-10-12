@@ -1,6 +1,8 @@
 @echo off
-:: Hier den Namen der Datei anpassen, falls du sie umbenennst
+chcp 65001 >nul
+:: Dateiname des Skripts
+set OrdnerPfad=Scripts
 set scriptName=Git-Helpfer-Programm.ps1
 
-:: Startet PowerShell mit dem oben definierten Namen im selben Ordner (%~dp0)
-powershell -NoExit -ExecutionPolicy Bypass -File "%~dp0%scriptName%"
+:: Startet PowerShell mit dem Skript aus dem Unterordner "Scripts"
+powershell -NoExit -ExecutionPolicy Bypass -File "%~dp0%OrdnerPfad%\%scriptName%"

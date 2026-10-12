@@ -1,6 +1,8 @@
 # Ordner ignorieren
 zip/
-Scripts/
+#Scripts/
+#Diff_Results/
+#Diff_Translation/
 
 # Bestimmte Dateitypen ignorieren
 *.git
@@ -11,4 +13,4 @@ Scripts/
 *.vdf
 
 # Die gitignore selbst (optional)
-.gitignore
+#.gitignore

@@ -1,0 +1,75 @@
+﻿{
+    "File":  "english_tooltips.xml",
+    "MissingInDe":  [
+                        {
+                            "Section":  "ScreenSpaceToolTips",
+                            "Key":  "StatusIconGravityDesc",
+                            "Value":  "Currently experiencing weightlessness",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "ScreenSpaceToolTips",
+                            "Key":  "StatusIconAccelerationName",
+                            "Value":  "Acceleration",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "ScreenSpaceToolTips",
+                            "Key":  "StatusIconAccelerationDesc",
+                            "Value":  "Undergoing excessive G-Forces",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "ScreenSpaceToolTips",
+                            "Key":  "StatusIconSanitationName",
+                            "Value":  "Sanitation Need",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "ScreenSpaceToolTips",
+                            "Key":  "StatusIconSoiledName",
+                            "Value":  "Soiled",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "ScreenSpaceToolTips",
+                            "Key":  "StatusIconHealingName",
+                            "Value":  "Healing",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "ScreenSpaceToolTips",
+                            "Key":  "StatusIconStimulantName",
+                            "Value":  "Stimulant",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "ScreenSpaceToolTips",
+                            "Key":  "StatusIconStunNotice",
+                            "Value":  "Stun",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        }
+                    ],
+    "ModifiedInEn":  [
+
+                     ],
+    "ObsoleteInDe":  [
+
+                     ]
+}

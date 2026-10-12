@@ -1,0 +1,618 @@
+﻿{
+    "File":  "english.xml",
+    "MissingInDe":  [
+                        {
+                            "Section":  "Things",
+                            "Key":  "DynamicOrbitalLaunchMountPayload",
+                            "Value":  "Orbital Launch Mount Payload",
+                            "Description":  "When attached to a {THING:StructureRocketLargePayloadBay} the {THING:DynamicOrbitalLaunchMountPayload} can be deployed in Low Orbit, where it unpacks into a {THING:StructureLaunchMountOrbital}. Rockets can then be constructed and landed there, and crewed rockets can travel between it and launch mounts on the surface.",
+                            "Unit":  null,
+                            "RecordTag":  "RecordThing"
+                        },
+                        {
+                            "Section":  "Things",
+                            "Key":  "ItemKitOrbitalLaunchMountPayload",
+                            "Value":  "Kit (Orbital Launch Mount Payload)",
+                            "Description":  "Constructs a {THING:DynamicOrbitalLaunchMountPayload} that can be carried to Low Orbit in a {THING:StructureRocketLargePayloadBay}.",
+                            "Unit":  null,
+                            "RecordTag":  "RecordThing"
+                        },
+                        {
+                            "Section":  "Things",
+                            "Key":  "StructureCrewModuleChair",
+                            "Value":  "Crew Module Chair",
+                            "Description":  "Seat for crewing a rocket. While the seat is occupied the rocket can only travel between launch mounts, and the seat can only be exited while the rocket is landed on one.",
+                            "Unit":  null,
+                            "RecordTag":  "RecordThing"
+                        },
+                        {
+                            "Section":  "Things",
+                            "Key":  "StructureCrewModuleScreen",
+                            "Value":  "Crew Module Screen",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "RecordThing"
+                        },
+                        {
+                            "Section":  "Things",
+                            "Key":  "ItemKitCrewParts",
+                            "Value":  "Kit (Crew Parts)",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "RecordThing"
+                        },
+                        {
+                            "Section":  "Interface",
+                            "Key":  "Sanitation",
+                            "Value":  "Sanitation",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Interface",
+                            "Key":  "LogicTypeRatioNitrogenInput",
+                            "Value":  "The ratio of nitrogen in device\u0027s input network",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Interface",
+                            "Key":  "SpawnDataNavigationPackage",
+                            "Value":  "Navigation Package",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Interface",
+                            "Key":  "SpawnDataMethaneCanister",
+                            "Value":  "Methane Canister",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Interface",
+                            "Key":  "FireStorm",
+                            "Value":  "Fire Storm",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Interface",
+                            "Key":  "BuyDataCryogenicsSupplyCrate",
+                            "Value":  "Cryogenics Supply Crate",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Interface",
+                            "Key":  "SellDataBulkOzone",
+                            "Value":  "Bulk Ozone",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Interface",
+                            "Key":  "SellDataBulkHydrazine",
+                            "Value":  "Bulk Hydrazine",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Interface",
+                            "Key":  "SellDataHydrazineCanister",
+                            "Value":  "Hydrazine Canister",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Interface",
+                            "Key":  "TraderCosmicCare",
+                            "Value":  "Cosmic Care",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Interface",
+                            "Key":  "TraderStellarMedical",
+                            "Value":  "Stellar Medical Supplies",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Interface",
+                            "Key":  "TraderOrbitalApothecary",
+                            "Value":  "Orbital Apothecary",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Interface",
+                            "Key":  "TraderVoidVitals",
+                            "Value":  "Void Vitals",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Interface",
+                            "Key":  "TraderNebulaNursing",
+                            "Value":  "Nebula Nursing",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Interface",
+                            "Key":  "TraderAsteroidAidStation",
+                            "Value":  "Asteroid Aid Station",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Interface",
+                            "Key":  "TraderInterstellarInfirmary",
+                            "Value":  "Interstellar Infirmary",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Interface",
+                            "Key":  "TraderGalacticGauze",
+                            "Value":  "Galactic Gauze",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Interface",
+                            "Key":  "ButtonSurfaceScan",
+                            "Value":  "Surface Scan",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Interface",
+                            "Key":  "ButtonTransfer",
+                            "Value":  "Transfer",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Interface",
+                            "Key":  "RemoveNodeOfTypeButton",
+                            "Value":  "Remove Node Type",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Colors",
+                            "Key":  "ColorObsidian",
+                            "Value":  "Obsidian",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Colors",
+                            "Key":  "ColorSilver",
+                            "Value":  "Silver",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Colors",
+                            "Key":  "ColorBronze",
+                            "Value":  "Bronze",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "Colors",
+                            "Key":  "ColorGold",
+                            "Value":  "Gold",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "FoodQualityLow",
+                            "Value":  "Low",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "FoodQualityOk",
+                            "Value":  "Ok",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "FoodQualityGood",
+                            "Value":  "Good",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "FoodQualityBest",
+                            "Value":  "Best",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "TooltipFoodQuality",
+                            "Value":  "Food Quality {LOCAL:Quality}",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "RocketDeployFailNoFreePosition",
+                            "Value":  "{LOCAL:Payload} All deploy positions in Low Orbit are occupied",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "RocketCannotExitSeatInFlight",
+                            "Value":  "Cannot exit the seat unless the rocket is landed on a launch mount",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "RocketCrewModuleMannedTravel",
+                            "Value":  "Cannot travel here while the crew module is manned",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "Waste",
+                            "Value":  "Waste",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "Use",
+                            "Value":  "Use",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "Healing",
+                            "Value":  "Healing",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "SanitationNeed",
+                            "Value":  "Sanitation Need",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "DeviceNotInPosition",
+                            "Value":  "{LOCAL:Occupant} is not close enough to use",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "DeviceCannotWhenWearing",
+                            "Value":  "Cannot use wearing {LOCAL:Thing}",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "NoSanitationNeed",
+                            "Value":  "{LOCAL:Human} has no sanitation need right now",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "ScriptDescriptionSgn",
+                            "Value":  "Stores the sign of a in the register: -1 if a is negative, 1 if positive, and 0 if a is zero (or not a number).",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "ScriptDescriptionClamp",
+                            "Value":  "Stores a clamped to the inclusive range [min, max] in the register provided.",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "ScriptDescriptionRol",
+                            "Value":  "Performs a bitwise left rotation on the binary representation of a by b places, wrapping the bits shifted out of the most significant position back into the least significant position.",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "ScriptDescriptionRor",
+                            "Value":  "Performs a bitwise right rotation on the binary representation of a by b places, wrapping the bits shifted out of the least significant position back into the most significant position.",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "TrackablePlayerBodyBag",
+                            "Value":  "{LOCAL:UserName}\u0027s Body Bag",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "Progress",
+                            "Value":  "Progress",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "DistanceToBedRock",
+                            "Value":  "Distance to Bedrock",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "Defibrillate",
+                            "Value":  "Defibrillate",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "DefibrillatorNotOperable",
+                            "Value":  "Defibrillator is not operable for this action.",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "NoPartnerUmbilical",
+                            "Value":  "No partner umbilical connected",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "RocketScannerWrongHeadType",
+                            "Value":  "{LOCAL:Thing} scanning head is the wrong type for action you are trying to do",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "RocketSurfaceScanActionInfo",
+                            "Value":  "Sending scan data to connected map motherboards. Scanner: {LOCAL:OnOff}",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "RocketActionSurfaceScan",
+                            "Value":  "Scanning Surface",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "RocketActionTransfer",
+                            "Value":  "Transfering Resources",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "DeviceNotEnoughWater",
+                            "Value":  "Not enough water",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "DeviceWaterTooHot",
+                            "Value":  "Water is too hot",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "DeviceWaterTooCold",
+                            "Value":  "Water is too cold",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "DeviceWaterPolluted",
+                            "Value":  "Water is polluted",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "DeviceOutputFull",
+                            "Value":  "\u003ccolor=yellow\u003eOutput\u003c/color\u003e network is full",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "DeviceMinimumPressure",
+                            "Value":  "World atmosphere must be at least {LOCAL:PRESSURE}",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "DifficultyStatisticSanitation",
+                            "Value":  "Sanitation",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "FermenterItemsLeftToFerment",
+                            "Value":  "Fermenting \u003ccolor=yellow\u003e{LOCAL:Amount}\u003c/color\u003e × \u003ccolor=green\u003e{LOCAL:Value} {LOCAL:Percentage}%\u003c/color\u003e",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "FermenterWillProduce",
+                            "Value":  "Will produce \u003ccolor=purple\u003e{LOCAL:Value}\u003c/color\u003e.",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "FermenterInputIsEmpty",
+                            "Value":  "No Fermentable item in Input.",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "RocketNoAvailableSeat",
+                            "Value":  "No seat available in crew module",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "NoAvailableBattery",
+                            "Value":  "No battery available. Battery must be turned on and have charge",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "PowerTransferActionInfo",
+                            "Value":  "Transferring Power. Source {LOCAL:SourcePercent}. Target {LOCAL:TargetPercent}",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "NoUmbilicalForTransfer",
+                            "Value":  "No umbilical to transfer from",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "GasTransferActionInfo",
+                            "Value":  "Transferring Gasses and Liquids. ",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "ActionSource",
+                            "Value":  "Source ",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "GameStrings",
+                            "Key":  "ActionTarget",
+                            "Value":  "Target ",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        }
+                    ],
+    "ModifiedInEn":  [
+
+                     ],
+    "ObsoleteInDe":  [
+                         {
+                             "Section":  "Interface",
+                             "Key":  "LogicTypeRatioValueNitrogenInput",
+                             "Value":  "Der Anteil von Stickstoff im Eingangsnetz des Geräts",
+                             "Description":  null,
+                             "Unit":  null,
+                             "RecordTag":  "Record"
+                         }
+                     ]
+}

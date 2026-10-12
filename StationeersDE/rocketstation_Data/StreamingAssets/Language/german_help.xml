@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>DE</Code>
   <HelpPage>
@@ -5,21 +6,18 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                 MASTER PAGES            |
     ~~~~~~~~~~~~~~~~~~~~~~~~~
-    -->  
-
+    -->
     <StationpediaPage>
-    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
+      <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
       <Key>Home</Key>
       <Title>Home</Title>
-      <Text>
-      </Text>
+      <Text></Text>
     </StationpediaPage>
     <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
     <StationpediaPage>
       <Key>Search</Key>
       <Title>Suche</Title>
-      <Text>
-      </Text>
+      <Text></Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>AirlockDevicePage</Key>
@@ -94,7 +92,7 @@
     </StationpediaPage>
     <StationpediaPage>
       <Key>SmeltingPage</Key>
-	  <DisplayFilter>Guides</DisplayFilter>
+      <DisplayFilter>Guides</DisplayFilter>
       <Title>Schmelzen</Title>
       <Text>Sobald du {LINK:OrePage;ore} hast, musst du es in {LINK:IngotPage;ingots} verwandeln, damit du ihre {LINK:ReagentPage;reagents} benutzen kannst. Beim Schmelzen entstehen oft {LINK:GasPage;gases}. Dies geschieht entweder im {THING:StructureArcFurnace} (für einfache Rezepte) oder im {THING:StructureFurnace} für kompliziertere {LINK:AlloyPage;Alloys}, und schließlich im {THING:StructureAdvancedFurnace} für sehr komplizierte {LINK:SuperAlloyPage;Superalloys}. Für die komplexen Legierungen musst du Mischungen mit perfekten Verhältnissen, {LINK: TemperaturePage;Temperature}, und {LINK:PressurePage;Pressure} erreichen.</Text>
     </StationpediaPage>
@@ -172,7 +170,7 @@
       <Key>TemperatureControlPage</Key>
       <DisplayFilter>Guides</DisplayFilter>
       <Title>Temperaturkontrolle</Title>
-      <Text>&quot;Um die Temperatur eines Systems zu regeln, müssen wir ihm entweder Wärme zuführen und so die Temperatur erhöhen oder Wärme abführen und es so abkühlen - das ist die Grundidee der Temperaturregelung. Geräte, die dieses Ziel für dich erreichen, sind {THING:ItemWallHeater}, {THING:ItemWallCooler}, {THING:StructurePipeRadiator}, und {THING:StructureAirConditioner}.
+      <Text>"Um die Temperatur eines Systems zu regeln, müssen wir ihm entweder Wärme zuführen und so die Temperatur erhöhen oder Wärme abführen und es so abkühlen - das ist die Grundidee der Temperaturregelung. Geräte, die dieses Ziel für dich erreichen, sind {THING:ItemWallHeater}, {THING:ItemWallCooler}, {THING:StructurePipeRadiator}, und {THING:StructureAirConditioner}.
 
         HINWEIS: Es gibt viele Methoden der Temperaturkontrolle. Manche beinhalten keines der genannten Geräte. Wir behandeln hier nur die Grundlagen.
 
@@ -230,11 +228,11 @@
 
         KLIMAANLAGE: TEMPERATURREGELUNG DER BASIS
         Es gibt viele Möglichkeiten, die Temperatur deiner Basis mit Klimaanlagen zu kontrollieren - dies ist eine davon:
-        Schritt 1: Verlege ein Netzwerk aus einem einzigen Rohr um deine Basis und installiere in jedem Raum, den du auf diese Weise klimatisieren möchtest, passive Lüftungsanlagen, die mit diesem Rohr verbunden sind. Das ist das &quot;Netzwerk A&quot;.
-        Schritt 2: Verbinde &quot;Netzwerk A&quot; mit dem Eingang und Ausgang einer Klimaanlage.
+        Schritt 1: Verlege ein Netzwerk aus einem einzigen Rohr um deine Basis und installiere in jedem Raum, den du auf diese Weise klimatisieren möchtest, passive Lüftungsanlagen, die mit diesem Rohr verbunden sind. Das ist das "Netzwerk A".
+        Schritt 2: Verbinde "Netzwerk A" mit dem Eingang und Ausgang einer Klimaanlage.
         Schritt 3: Verbinde das Abfallrohr mit einem anderen Netzwerk und führe es nach draußen. Installiere Heizkörper in diesem Netzwerk.
         Dies ist die Grundeinstellung. Um das Ganze zu automatisieren, brauchst du einen Rohranalysator an Netzwerk A. Dann kannst du die Temperatur ablesen und deine Klimaanlage(n) entsprechend betreiben.
-        Viel Glück, Kadett!&quot;</Text>
+        Viel Glück, Kadett!"</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPage</Key>
@@ -290,7 +288,7 @@
       <Title>Raketen</Title>
       <DisplayFilter>Guides</DisplayFilter>
       <Title>Automatisierte Raketenmodule (A.R.M.)</Title>
-      <Text>&quot;Automatisierte Raketen sind unbemannte Fahrzeuge, die außerhalb der Welten entsandt werden können, um eine Reihe von Rohstoffen zu holen. Die Rakete kann von {LINK:LogicUnitPage;logic} oder {LINK:LogicUnitPage;IC} oder einer Mischung aus diesen Systemen gesteuert werden.
+      <Text>"Automatisierte Raketen sind unbemannte Fahrzeuge, die außerhalb der Welten entsandt werden können, um eine Reihe von Rohstoffen zu holen. Die Rakete kann von {LINK:LogicUnitPage;logic} oder {LINK:LogicUnitPage;IC} oder einer Mischung aus diesen Systemen gesteuert werden.
 
         Nach dem Start suchen die automatischen Raketen nach Planeten oder Asteroiden mit abbaubaren Rohstoffen, je nachdem, mit welchen MODULEN sie gebaut wurden. Die Raketen können so programmiert werden, dass sie alle verfügbaren Rohstoffe abbauen und dann zu einem anderen Planeten fliegen oder nach Hause zurückkehren. Ihre Reichweite - und damit die Menge an Rohstoffen, die sie abbauen können - hängt von ihrem verfügbaren Treibstoff ab. Wenn ihnen der Treibstoff ausgeht, sind sie für immer in den Weiten des Alls verloren.
 
@@ -318,7 +316,7 @@
 
 
         {HEADER:ROCKET MODES}
-        Der Modus der Rakete wird über den Wert &quot;activate&quot; des Geräts eingestellt. Der Modus bestimmt das aktuelle Verhalten:
+        Der Modus der Rakete wird über den Wert "activate" des Geräts eingestellt. Der Modus bestimmt das aktuelle Verhalten:
 
         0: Leerlauf (an der Basis)
         1: Starten
@@ -334,7 +332,7 @@
         * TREIBSTOFF IM TANK VEBLEIBEND - Zeigt den verbleibenden Treibstoff im Tank deiner Rakete an.
         * TREIBSTOFF RÜCKKEHRKOSTEN - Zeigt die Treibstoffkosten für die Rückkehr der Rakete zu deiner aktuellen Welt an.
         * ROCKET MODE - Liefert den aktuellen Wert für den Raketenmodus (0-7).
-        * SAMMELBARE GÜTER - Gibt 0 oder 1 zurück, je nachdem, ob das aktuelle Raketensystem die Möglichkeit hat, Rohstoffe auf dem Planeten zu sammeln oder nicht.&quot;</Text>
+        * SAMMELBARE GÜTER - Gibt 0 oder 1 zurück, je nachdem, ob das aktuelle Raketensystem die Möglichkeit hat, Rohstoffe auf dem Planeten zu sammeln oder nicht."</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>FoodPage</Key>
@@ -355,43 +353,6 @@
         {LIST_OF_APPLIANCES}</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>RocketShuttleModulesHelpPage</Key>
-      <DisplayFilter>Guides</DisplayFilter>
-      <Title>Raketen-Shuttle-Module</Title>
-      <Text>&quot;{HEADER:Modular Rocket Cargo}
-
-        Die {THING:StructureModularRocketCargo01} hat Platz für zwei Kisten mit zehn Fächern. Du kannst mehrere Frachtmodule auf deiner Rakete haben. Die Rakete kann insgesamt bis zu sieben Module transportieren.
-
-        {HEADER:Modular Rocket Command}
-
-        Der {THING:StructureModularRocketCommand01} muss oben auf der Rakete platziert werden. Er prüft, ob die Rakete flugbereit ist. Wenn alle Bedingungen erfüllt sind, kann die Rakete gestartet werden, wenn alle Spieler im Modul sitzen, indem du auf der Konsole &quot;ZÜNDUNG&quot; drückst.
-
-        Die folgenden Bedingungen müssen für den Start erfüllt sein:
-
-        Treibstoff voll
-        Treibstoffmischungsverhältnis korrekt
-        Alle Spieler sitzen auf ihren Plätzen
-        Die Startrampe wird mit Energie versorgt
-        Vollständig gebaute Rakete
-
-        Die {THING:StructureModularRocketCommand01} Konsole zeigt den aktuellen Stand dieser Bedingungen an. Für den Start wird keine Atmosphäre benötigt - die Atmosphäre deines Anzugs ist ausreichend.
-
-        {HEADER:Modular Rocket Engine}
-
-        Die {THING:StructureModularRocketEngine01} ist in der Lage, bis zu sieben Module (einschließlich sich selbst) zu heben.
-
-        {HEADER:Modular Rocket Fuel Tank}
-
-        Der {THING:StructureModularRocketFueltank01} benötigt ein 2:1-Gemisch aus {GAS:Methane} und {GAS:Oxygen}. Wenn die Mischung dieses Verhältnis überschreitet oder du andere Gase in den Tank gibst, zeigt die {THING:StructureModularRocketCommand01} Konsole einen 'Ungültig'-Fehler an.&quot;</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>RocketShuttlePage</Key>
-      <Title>Raketenshuttle</Title>
-      <Text>Dies sind die Raketenmodule, die für die Reise zwischen den Welten benutzt werden. {THING:StructureLaunchPad} wird benötigt.
-        {HEADER:List of Rocket Shuttle Modules}
-        {LIST_OF_ROCKET_SHUTTLE}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>WeatherPage</Key>
       <DisplayFilter>Guides</DisplayFilter>
       <Title>Wetter</Title>
@@ -400,13 +361,11 @@
         Alle dynamischen Objekte, die in einem Sturm draußen gelassen werden - auf dem Mars, Loulan, Vulkan oder Europa - laufen Gefahr, weit, weit weggeweht zu werden, auch dein Lander.
         Sei dir auch bewusst, dass die Solarzellen zerbrechlich sind und ihr Glas zersplittert oder manchmal sogar von einem ausreichend heftigen Sturm zerstört werden kann. Bei Stürmen wird auch ihre Leistung drastisch reduziert.</Text>
     </StationpediaPage>
-    
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
-    
     <StationpediaPage>
       <Key>ThingTemplate</Key>
       <Text>{0}
@@ -489,9 +448,7 @@
     </StationpediaPage>
     <StationpediaPage>
       <Key>TierListHeaderTemplate</Key>
-      <Text>
-      
-      </Text>
+      <Text></Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatorTemplate</Key>
@@ -572,7 +529,7 @@
     <StationpediaPage>
       <Key>FarmingPage</Key>
       <Title>Wachsende Nahrung</Title>
-      <Text>&quot;Um auf fremden Welten zu überleben, erwartet die {LINK:ODA;ODA} von allen {LINK:Stationeers;Stationeers}, dass sie lebensfähige {LINK:OrganicPage;hydroponic} Systeme einrichten oder registrierte lokale Rohstoff-{LINK:TradingPage;traders} kontaktieren.
+      <Text>"Um auf fremden Welten zu überleben, erwartet die {LINK:ODA;ODA} von allen {LINK:Stationeers;Stationeers}, dass sie lebensfähige {LINK:OrganicPage;hydroponic} Systeme einrichten oder registrierte lokale Rohstoff-{LINK:TradingPage;traders} kontaktieren.
 
         {HEADER:SETTING UP}
 
@@ -603,13 +560,13 @@
         - {THING:DecayedFood} erhöht die WACHSTUMSGESCHWINDIGKEIT der Pflanzen bis zu 3 Mal
         - {THING:ItemBiomasse} erhöht die ANZAHL DER WACHSTUMSZYKLEN, für die der Dünger reicht, auf maximal 5
 
-        Die Wirkung dieser Bestandteile hängt von ihren jeweiligen Anteilen im Komposter ab, wenn die Verarbeitung aktiviert wird. Der Dünger wird in einem Verhältnis von 1:3 zwischen Dünger und Zutaten hergestellt. Bei der Verarbeitung werden {GAS:Nitrogen} und {GAS:Methane} freigesetzt, ebenso wie eine geringe Menge an Wärme.&quot;</Text>
+        Die Wirkung dieser Bestandteile hängt von ihren jeweiligen Anteilen im Komposter ab, wenn die Verarbeitung aktiviert wird. Der Dünger wird in einem Verhältnis von 1:3 zwischen Dünger und Zutaten hergestellt. Bei der Verarbeitung werden {GAS:Nitrogen} und {GAS:Methane} freigesetzt, ebenso wie eine geringe Menge an Wärme."</Text>
       <DisplayFilter>Guides</DisplayFilter>
     </StationpediaPage>
     <StationpediaPage>
       <Key>DecayPage</Key>
       <Title>Verfall der Nahrung</Title>
-      <Text>&quot;Lebensmittel zerfallen mit der Zeit zu {THING:DecayedFood}, wenn sie nicht in einer stabilen Atmosphäre gekühlt werden. Die genaue Geschwindigkeit des Zerfalls variiert individuell nach:
+      <Text>"Lebensmittel zerfallen mit der Zeit zu {THING:DecayedFood}, wenn sie nicht in einer stabilen Atmosphäre gekühlt werden. Die genaue Geschwindigkeit des Zerfalls variiert individuell nach:
 
         - TEMPERATUR - Kühlung verlangsamt den Verfall, aber viele Lebensmittel werden durch extremen Unterdruck und extreme Hitze beschädigt. Die optimale Temperatur ist 0 Kelvin (-272 C).
 
@@ -626,7 +583,7 @@
         &gt; {GAS:Pollutant} x 3
         &gt; {GAS:NitrousOxide} x 1,5
         &gt; {GAS:Water} x 2
-        &gt; Vakuum - siehe DRUCK (oben).&quot;</Text>
+        &gt; Vakuum - siehe DRUCK (oben)."</Text>
       <DisplayFilter>Guides</DisplayFilter>
     </StationpediaPage>
     <StationpediaPage>
@@ -667,10 +624,26 @@
 
         Temperatur: Normalerweise wird sie auf 18-21°C eingestellt, wobei Menschen im Spiel 10-29°C bevorzugen, 0-39°C tolerieren und bis zu 49°C überleben können. Bei höheren Temperaturen verbraucht deine Klimaanlage mehr Energie, um die Innentemperatur zu halten.
 
-        Filter: Der Standardfilter ist der {GAS:CarbonDioxide}-Filter, der das Gas auffängt, das die Menschen beim Ausatmen erzeugen. Wenn du nicht 100% {GAS:Oxygen} in deinem Atemgas benutzt, füge zusätzliche Filter hinzu, z.B. wenn du 25% {GAS: Oxygen} + 75% {GAS:Nitrogen} mischst, wird sich der Stickstoff mit der Zeit in deinem Anzug ansammeln und dich ersticken, es sei denn, du hast einen Stickstofffilter. Wenn du die richtigen Filter und Atemgas hast, aber trotzdem Probleme auftreten, benutze die &quot;Spülen&quot;-Funktion deines Weltraumhelms. Wenn deine Filter nicht mehr funktionieren, ertönt eine Warnung bei niedrigem/kritischem Sauerstoffgehalt.
+        Filter: Der Standardfilter ist der {GAS:CarbonDioxide}-Filter, der das Gas auffängt, das die Menschen beim Ausatmen erzeugen. Wenn du nicht 100% {GAS:Oxygen} in deinem Atemgas benutzt, füge zusätzliche Filter hinzu, z.B. wenn du 25% {GAS: Oxygen} + 75% {GAS:Nitrogen} mischst, wird sich der Stickstoff mit der Zeit in deinem Anzug ansammeln und dich ersticken, es sei denn, du hast einen Stickstofffilter. Wenn du die richtigen Filter und Atemgas hast, aber trotzdem Probleme auftreten, benutze die "Spülen"-Funktion deines Weltraumhelms. Wenn deine Filter nicht mehr funktionieren, ertönt eine Warnung bei niedrigem/kritischem Sauerstoffgehalt.
 
         Wenn dein Anzug beschädigt ist, kannst du ihn flicken, indem du Klebeband in der Hand hältst und die Taste 'Aktivieren' benutzt.</Text>
       <DisplayFilter>Guides</DisplayFilter>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CableNetworkPage</Key>
+      <Value></Value>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SanitationPage</Key>
+      <Value></Value>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CableNetworkPage</Key>
+      <Value></Value>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SanitationPage</Key>
+      <Value></Value>
     </StationpediaPage>
   </HelpPage>
 </Language>

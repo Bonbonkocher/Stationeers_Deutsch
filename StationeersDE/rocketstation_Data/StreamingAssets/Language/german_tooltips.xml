@@ -1,4 +1,5 @@
-﻿<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Deutsch</Name>
   <Code>DE</Code>
   <Font>font_english</Font>
@@ -6,7 +7,7 @@
     <Record>
       <Key>StatusIconToxinName</Key>
       <Value>Toxine</Value>
-    </Record>    
+    </Record>
     <Record>
       <Key>StatusIconToxinDesc</Key>
       <Value>Aktuelles Toxizitätslevel</Value>
@@ -206,6 +207,70 @@
     <Record>
       <Key>StatusIconCoolantDesc</Key>
       <Value>Kühlmitteltemperatur ist zu hoch</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconGravityDesc</Key>
+      <Value>Erlebt derzeit Schwerelosigkeit</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAccelerationName</Key>
+      <Value>Beschleunigung</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAccelerationDesc</Key>
+      <Value>Ist übermäßigen G-Kräften ausgesetzt</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconSanitationName</Key>
+      <Value>Hygienebedürfnis</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconSoiledName</Key>
+      <Value>Verschmutzt</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHealingName</Key>
+      <Value>Heilung</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStimulantName</Key>
+      <Value>Stimulans</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStunNotice</Key>
+      <Value>Betäubt</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconGravityDesc</Key>
+      <Value>Erlebt derzeit Schwerelosigkeit</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAccelerationName</Key>
+      <Value>Beschleunigung</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAccelerationDesc</Key>
+      <Value>Ist übermäßigen G-Kräften ausgesetzt</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconSanitationName</Key>
+      <Value>Hygienebedürfnis</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconSoiledName</Key>
+      <Value>Verschmutzt</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHealingName</Key>
+      <Value>Heilung</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStimulantName</Key>
+      <Value>Stimulans</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStunNotice</Key>
+      <Value>Betäubt</Value>
     </Record>
   </ScreenSpaceToolTips>
 </Language>

@@ -1,0 +1,75 @@
+{
+    "File":  "english_tooltips.xml",
+    "MissingInDe":  [
+                        {
+                            "Section":  "ScreenSpaceToolTips",
+                            "Key":  "StatusIconGravityDesc",
+                            "Value":  "Erlebt derzeit Schwerelosigkeit",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "ScreenSpaceToolTips",
+                            "Key":  "StatusIconAccelerationName",
+                            "Value":  "Beschleunigung",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "ScreenSpaceToolTips",
+                            "Key":  "StatusIconAccelerationDesc",
+                            "Value":  "Ist übermäßigen G-Kräften ausgesetzt",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "ScreenSpaceToolTips",
+                            "Key":  "StatusIconSanitationName",
+                            "Value":  "Hygienebedürfnis",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "ScreenSpaceToolTips",
+                            "Key":  "StatusIconSoiledName",
+                            "Value":  "Verschmutzt",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "ScreenSpaceToolTips",
+                            "Key":  "StatusIconHealingName",
+                            "Value":  "Heilung",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "ScreenSpaceToolTips",
+                            "Key":  "StatusIconStimulantName",
+                            "Value":  "Stimulans",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        },
+                        {
+                            "Section":  "ScreenSpaceToolTips",
+                            "Key":  "StatusIconStunNotice",
+                            "Value":  "Betäubt",
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "Record"
+                        }
+                    ],
+    "ModifiedInEn":  [
+
+                     ],
+    "ObsoleteInDe":  [
+
+                     ]
+}

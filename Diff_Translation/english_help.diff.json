@@ -1,0 +1,42 @@
+{
+    "File":  "english_help.xml",
+    "MissingInDe":  [
+                        {
+                            "Section":  "HelpPage",
+                            "Key":  "CableNetworkPage",
+                            "Value":  null,
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "StationpediaPage"
+                        },
+                        {
+                            "Section":  "HelpPage",
+                            "Key":  "SanitationPage",
+                            "Value":  null,
+                            "Description":  null,
+                            "Unit":  null,
+                            "RecordTag":  "StationpediaPage"
+                        }
+                    ],
+    "ModifiedInEn":  [
+
+                     ],
+    "ObsoleteInDe":  [
+                         {
+                             "Section":  "HelpPage",
+                             "Key":  "RocketShuttleModulesHelpPage",
+                             "Value":  null,
+                             "Description":  null,
+                             "Unit":  null,
+                             "RecordTag":  "StationpediaPage"
+                         },
+                         {
+                             "Section":  "HelpPage",
+                             "Key":  "RocketShuttlePage",
+                             "Value":  null,
+                             "Description":  null,
+                             "Unit":  null,
+                             "RecordTag":  "StationpediaPage"
+                         }
+                     ]
+}
