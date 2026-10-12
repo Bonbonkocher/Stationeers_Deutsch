@@ -1,5 +1,6 @@
 # Ordner ignorieren
 zip/
+steamcmd/
 #Scripts/
 #Diff_Results/
 #Diff_Translation/

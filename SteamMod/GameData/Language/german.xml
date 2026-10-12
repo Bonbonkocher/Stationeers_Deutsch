@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Deutsch</Name>
   <Code>DE</Code>
@@ -32,11 +32,6 @@
     <RecordReagent>
       <Key>Gold</Key>
       <Value>Gold</Value>
-      <Unit>g</Unit>
-    </RecordReagent>
-    <RecordReagent>
-      <Key>Carbon</Key>
-      <Value>Kohlenstoff</Value>
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
@@ -234,6 +229,11 @@
       <Value>Kakao</Value>
       <Unit>g</Unit>
     </RecordReagent>
+    <RecordReagent>
+      <Key>Carbon</Key>
+      <Value>Kohlenstoff</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
   </Reagents>
   <Gases>
     <Record>
@@ -266,7 +266,7 @@
     </Record>
     <Record>
       <Key>NitrousOxide</Key>
-      <Value>Distickstoffmonoxid</Value>	  
+      <Value>Distickstoffmonoxid</Value>
       <Description>Auch bekannt als Lachgas. Ist sehr vielseitig in Medizin, Küchen (Treibmittel Schlagsahne) oder Motorsport seine verwendung.</Description>
     </Record>
     <Record>
@@ -1407,7 +1407,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitBattery</Key>
-      <Value>Bausatz (Batterie)</Value>
+      <Value>Bausatz (Stationsbatterie)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCentrifuge</Key>
@@ -1690,6 +1690,26 @@
       <Description>Werde klassisch, klandestin oder einfach nur gotisch mit schwarzer Farbe, die auf die meisten Gegenstände aufgetragen werden kann. Jede Dose hat 20 Anwendungen.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemSprayCanMetallicObsidian</Key>
+      <Value>Sprühfarbe (Obsidian)</Value>
+      <Description>Metallische Obsidian-Sprühfarbe. Die Verwendung mit einer Lackierpistole verlängert die Ergiebigkeit erheblich.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanMetallicSilver</Key>
+      <Value>Sprühfarbe (Silber)</Value>
+      <Description>Metallische Silber-Sprühfarbe. Die Verwendung mit einer Lackierpistole verlängert die Ergiebigkeit erheblich.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanMetallicBronze</Key>
+      <Value>Sprühfarbe (Bronze)</Value>
+      <Description>Metallische Bronze-Sprühfarbe. Die Verwendung mit einer Lackierpistole verlängert die Ergiebigkeit erheblich.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanMetallicGold</Key>
+      <Value>Sprühfarbe (Gold)</Value>
+      <Description>Metallische Gold-Sprühfarbe. Die Verwendung mit einer Lackierpistole verlängert die Ergiebigkeit erheblich.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemSprayCanBlue</Key>
       <Value>Sprühfarbe (Blau)</Value>
       <Description>Was für eine Farbe ist Blau? Die Art von Farbe, die sagt: "Hey, was ist mit mir?"</Description>
@@ -1785,6 +1805,13 @@
       <Value>Werkzeuggürtel</Value>
       <Description>Wenn es ein Ausrüstungsstück gibt, das das Leben eines {LINK:Stationeers;Stationeer} mehr als alles andere verkörpert, dann ist es der bescheidene Werkzeuggürtel (Anmerkung des Herausgebers: Eine kürzlich durchgeführte {LINK:ODA;ODA} Umfrage unter ikonischer Stationeer-Ausrüstung bewertete auch die rauchenden, giftigen Ruinen eines unter Überdruck stehenden {THING:StructureFurnace}, die inmitten der verkohlten Überreste deiner neuesten Basis liegen, sehr hoch).
       Entwickelt, um die strengsten ODA-Sicherheitsstandards (so ungefähr) zu erfüllen, fassen die acht Schlitze des Werkzeuggürtels eine Sache: Werkzeuge und {THING:ItemCableCoil}. Nicht zu verwechseln mit dem {THING:ItemMiningBelt}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCableToolBelt</Key>
+      <Value>Elektriker-Gürtel</Value>
+      <Description>Ein Gürtel mit zwei Werkzeugplätzen und sechs Plätzen, die auf {THING:ItemCableCoil}, {THING:ItemCableCoilHeavy} und {THING:ItemCableCoilSuperHeavy} beschränkt sind.
+
+Beim Tragen lädt der Gürtel die {THING:ItemCableGun} mit einer passenden Spule nach, sobald die eigene Spule der Pistole leer ist, und fängt zurückgebaute Kabel auf, die nicht in deine Hände passen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemUraniumOre</Key>
@@ -2239,7 +2266,7 @@ Eine wiederkehrende Beschwerde der {LINK:Stationeers;Stationeer} konzentriert si
       <Value>Bausatz (Wasserreiniger)</Value>
       <Description />
     </RecordThing>
-<RecordThing>
+    <RecordThing>
       <Key>StructureFlashingLight</Key>
       <Value>Blinklicht</Value>
       <Description>Nur wenige Objekte oder Konzepte sind so klar und transparent benannt wie das Blinklicht, obwohl Verfechter peinlicher Genauigkeit dazu neigen, es bei seinem vollen, offiziellen Titel zu nennen: 'Standard-Blinklicht Gelb'.</Description>
@@ -2704,7 +2731,7 @@ Beachte, dass Transformatoren als Datenisolatoren fungieren und verhindern, dass
 Der Schmelzprozess setzt zudem eine Reihe von Nebenprodukt-{LINK:GasPage;gases} frei, hauptsächlich {GAS:Nitrogen}, {GAS:CarbonDioxide}, {GAS:Methane} und {GAS:Oxygen} in unterschiedlichen Verhältnissen. Diese können durch Filterung wieder aus der Atmosphäre zurückgewonnen werden, machen den Lichtbogenofen in geschlossenen Umgebungen jedoch zu einem Risiko. 
 Im Gegensatz zum fortschrittlicheren {THING:StructureFurnace} kann der Lichtbogenofen keine {LINK:IngotPage;alloys} herstellen.</Description>
     </RecordThing>
-<RecordThing>
+    <RecordThing>
       <Key>StructureAutolathe</Key>
       <Value>Drehbankdrucker</Value>
       <Description>Als Grundlage der meisten {LINK:Stationeers;Stationeer} Fertigungssysteme ist die {LINK:ExMin;ExMin} Drehbankdrucker ein Mehrachsen-Molekularzusammensetzungssystem. Ihre Komplexität erfordert viel Zeit beim Zusammenbau, aber sie bleibt ein unverzichtbares Werkzeug für Kreationen. Rüste das Gerät mit einem {THING:AutolathePrinterMod} auf, um zusätzliche Rezepte und schnellere Verarbeitungsgeschwindigkeiten freizuschalten.</Description>
@@ -3139,8 +3166,8 @@ Beachte, dass Transformatoren als Datenisolatoren fungieren und verhindern, dass
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicDial</Key>
-      <Value>Wählschalter</Value>
-      <Description>Ein zuweisbarer Wählschalter mit bis zu 1000 Modi.</Description>
+      <Value>Drehregler</Value>
+      <Description>Ein zuweisbarer {THING:StructureLogicDial} mit bis zu 1000 Modi.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED1x2</Key>
@@ -3366,7 +3393,8 @@ Beachte, dass Transformatoren als Datenisolatoren fungieren und verhindern, dass
       <Key>ItemKitCompositeCladding</Key>
       <Value>Bausatz (Verkleidung)</Value>
       <Description />
-    </RecordThing><RecordThing>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureCompositeCladdingAngledCornerLongR</Key>
       <Value>Verbundverkleidung (Lange abgewinkelte gespiegelte Ecke)</Value>
     </RecordThing>
@@ -4026,7 +4054,7 @@ Beachte, dass Transformatoren als Datenisolatoren fungieren und verhindern, dass
     <RecordThing>
       <Key>StructureElectrolyzer</Key>
       <Value>Elektrolyseur</Value>
-      <Description>Der von {LINK:Norsec;Norsec} entworfene Elektrolyseur spaltet {GAS:Water} in Wasserstoff und {GAS:Oxygen} auf. Das Gerät nutzt eine unbekannte, proprietäre Technologie und verwendet die latente Wärme des Wassers als Energiequelle für den Elektrolyseprozess. Wenn es einen Nachteil dieser beinahe wunderbaren Spaltung gibt, dann ist es der, dass das Gerät durch die verfügbare Strommenge begrenzt ist, die zur Aufrechterhaltung der Temperaturausgabe genutzt wird. Mit anderen Worten: Die Maschine arbeitet am besten mit heißem Gas.</Description>
+      <Description>Der von {LINK:Norsec;Norsec-designed} entworfene Elektrolyseur spaltet {GAS:Water} in Wasserstoff und {GAS:Oxygen} auf. Das Gerät nutzt eine unbekannte, proprietäre Technologie und verwendet die latente Wärme des Wassers als Energiequelle für den Elektrolyseprozess. Wenn es einen Nachteil dieser beinahe wunderbaren Spaltung gibt, dann ist es der, dass das Gerät durch die verfügbare Strommenge begrenzt ist, die zur Aufrechterhaltung der Temperaturausgabe genutzt wird. Mit anderen Worten: Die Maschine arbeitet am besten mit heißem Gas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureElevatorShaft</Key>
@@ -4152,7 +4180,7 @@ Beachte, dass Transformatoren als Datenisolatoren fungieren und verhindern, dass
       <Key>ItemWearLamp</Key>
       <Value>Stirnlampe</Value>
     </RecordThing>
-<RecordThing>
+    <RecordThing>
       <Key>ItemDebugHeadlamp</Key>
       <Value>Debug-Stirnlampe</Value>
     </RecordThing>
@@ -4762,7 +4790,7 @@ Beachte, dass Transformatoren zudem als Datenisolatoren fungieren und verhindern
 Unverzichtbar für den Bau, Bergbau und allgemeine Fortbewegung, verfügt es über zehn Lagerplätze und lässt {LINK:Stationeers;Stationeers} mit 3 m/s fliegen, im Vergleich zum stärkeren {THING:ItemHardJetpack}. Das Anpassen des Schubwertes ändert deine Beschleunigungsrate, während das Aktivieren des Stabilisators das Spacepack schweben lässt, wenn eine bestimmte Höhe erreicht ist.
 BEDIENUNG: 'J' zum Aktivieren; 'Leertaste' zum Aufsteigen; 'linkes Strg' zum Sinken; und 'WASD' zum Bewegen.</Description>
     </RecordThing>
-<RecordThing>
+    <RecordThing>
       <Key>StructureRTGSurvival</Key>
       <Value>RTG</Value>
     </RecordThing>
@@ -5427,6 +5455,11 @@ BEDIENUNG: 'J' zum Aktivieren; 'Leertaste' zum Aufsteigen; 'linkes Strg' zum Sin
       <Description>Das erste Teil, das beim Bau einer Rakete platziert werden muss. Raketen können hier gebaut und/oder gelandet werden. Jedem Startsockel wird ein Platz auf der Weltraumkarte zugewiesen und ein Standortcode zugeteilt.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>StructureLaunchMountOrbital</Key>
+      <Value>Orbitale Startrampe</Value>
+      <Description>Eine Startrampe, die im erdnahen Orbit mithilfe einer {THING:DynamicOrbitalLaunchMountPayload} errichtet wird, welche in einer {THING:StructureRocketLargePayloadBay} transportiert wurde. Raketen können hier gebaut und/oder gelandet werden. Jeder orbitalen Startrampe wird ein Platz auf der Weltraumkarte sowie ein Standortcode zugewiesen.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitAirlockGate</Key>
       <Value>Bausatz (Hangartor)</Value>
       <Description />
@@ -5454,7 +5487,7 @@ Es gibt eine Vielzahl von Warnhinweisen zur Konstruktion elektrischer Systeme mi
 {HEADER:POWER OUTPUT}
 Sie kann bis zu 9000001 Watt an Energie speichern, und es gibt keine praktischen Grenzen für ihren Durchsatz, weshalb es ratsam ist, {THING:ItemCableCoilHeavy} zu verwenden. Erfahrene Elektroingenieure lachen zudem über diejenigen, die es versäumen, ihre Energieerzeugungsnetze durch eine {THING:StructureAreaPowerControl} und einen {THING:StructureTransformer} zu trennen.</Description>
     </RecordThing>
-<RecordThing>
+    <RecordThing>
       <Key>ItemKitBatteryLarge</Key>
       <Value>Bausatz (Große Batterie)</Value>
       <Description />
@@ -5679,7 +5712,9 @@ Es kann mithilfe des {THING:StructureHarvie} automatisiert werden. Beachte, dass
     <RecordThing>
       <Key>StructureWindTurbine</Key>
       <Value>Windturbine</Value>
-      <Description>Die Windturbine ist darauf optimiert, selbst auf Welten mit dünner Atmosphäre Strom zu erzeugen (bis zu 500W); am besten schneidet sie in dichteren Umgebungen ab. Die Leistung variiert mit der Windgeschwindigkeit und kann während Stürmen drastisch ansteigen (bis zu 20.000W). Achte darauf, deine Stromnetze entsprechend zu planen.</Description>
+      <Description>
+		Die Windturbine ist darauf optimiert, selbst auf Welten mit dünner Atmosphäre Strom zu erzeugen (bis zu 500W); am besten schneidet sie in dichteren Umgebungen ab. Die Leistung variiert mit der Windgeschwindigkeit und kann während Stürmen drastisch ansteigen (bis zu 20.000W). Achte darauf, deine Stromnetze entsprechend zu planen.
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWindTurbine</Key>
@@ -6005,7 +6040,7 @@ Anwendung bei sich selbst: Klebeband in die aktive Hand nehmen, RECHTE MAUSTASTE
       <Value>Wärmetauscher Flüssigkeit und Gas</Value>
       <Description />
     </RecordThing>
-<RecordThing>
+    <RecordThing>
       <Key>LogicStepSequencer8</Key>
       <Value>Logik-Schritt-Sequenzer</Value>
       <Description>Die {LINK:ODA;ODA} billigt keine Soundtracks oder andere Ablenkungen.
@@ -6587,7 +6622,7 @@ Hinweis: Der Dosenfüller zeigt einen Fehler an seinem Aktivierungsschalter an, 
       <Value>Turbo-Volumenpumpe (Flüssigkeit)</Value>
       <Description>Befördert 10-mal mehr Flüssigkeit als eine einfache {THING:StructureVolumePump}, mit einem Modus, der auf beide Richtungen eingestellt werden kann.</Description>
     </RecordThing>
-<RecordThing>
+    <RecordThing>
       <Key>ItemKitLiquidTurboVolumePump</Key>
       <Value>Bausatz (Turbo-Volumenpumpe - Flüssigkeit)</Value>
       <Description />
@@ -7063,7 +7098,7 @@ Das Ausschalten der Maschine reduziert die Drehzahl auf kontrollierte Weise.</De
       <Value>Schachtventil</Value>
       <Description>Das Schachtventil stoppt den Materialfluss, wenn es auf 'geschlossen' gestellt ist, und fungiert als gerader Schacht, wenn es auf 'offen' gestellt ist.</Description>
     </RecordThing>
-<RecordThing>
+    <RecordThing>
       <Key>StructureCombustionCentrifuge</Key>
       <Value>Verbrennungs-Zentrifuge</Value>
       <Description>Die Verbrennungs-Zentrifuge ist eine mit Gasbrennstoff betriebene Version der {THING:StructureCentrifuge}. Wenn ein {THING:StructureRecycler} oder ein unausgeglichener {THING:StructureFurnace} eine {LINK:ReagentPage;reagent} Mischung anstelle der gewünschten {LINK:IngotPage;ingots} ausgibt, ermöglicht eine Zentrifuge die Rückgewinnung des rohen {LINK:OrePage;ore}. 
@@ -7655,7 +7690,7 @@ Um mit dem Splicing zu beginnen, lege eine Pflanze oder einen Samenbeutel in den
       <Value>Reines Methaneis</Value>
       <Description>Ein gefrorener Brocken aus reinem {GAS:Methane}.</Description>
     </RecordThing>
-<RecordThing>
+    <RecordThing>
       <Key>ItemPureIceLiquidCarbonDioxide</Key>
       <Value>Reines flüssiges Kohlendioxideis</Value>
       <Description>Ein gefrorener Brocken aus reinem {GAS:LiquidCarbonDioxide}</Description>
@@ -8146,6 +8181,11 @@ Um mit dem Splicing zu beginnen, lege eine Pflanze oder einen Samenbeutel in den
       <Description />
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitLaunchMountOrbital</Key>
+      <Value>Bausatz (Orbitale Startrampe)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
       <Key>StructureRocketManufactory</Key>
       <Value>Raketendrucker</Value>
     </RecordThing>
@@ -8259,7 +8299,7 @@ Um mit dem Splicing zu beginnen, lege eine Pflanze oder einen Samenbeutel in den
       <Value>Frachtlager (Mittel)</Value>
       <Description />
     </RecordThing>
-<RecordThing>
+    <RecordThing>
       <Key>StructurePumpedLiquidEngine</Key>
       <Value>Gepumptes Flüssig-Triebwerk</Value>
       <Description>Flüssige Treibstoffe bringen eine höhere Effizienz mit dem gepumpten Flüssig-Triebwerk. Es sind zwei Eingänge vorhanden, damit Stationeers ihre Treibstoffe trennen können; die Variable 'Setting' steuert das Mischungsverhältnis der Eingänge. Das Triebwerk ist für den Betrieb mit {GAS:LiquidMethane} und {GAS:LiquidOxygen} ausgelegt. Einige Stationeers haben von extremen Schubwerten berichtet, wenn sie auf {GAS:LiquidNitrousOxide} umgestiegen sind.</Description>
@@ -8581,12 +8621,12 @@ Um mit dem Splicing zu beginnen, lege eine Pflanze oder einen Samenbeutel in den
     </RecordThing>
     <RecordThing>
       <Key>StructurePortablesConnector</Key>
-      <Value>Anschluss für tragbare Geräte</Value>
+      <Value>Anschluss für tragbare Tanks</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPortablesConnector</Key>
-      <Value>Bausatz (Anschluss für tragbare Geräte)</Value>
+      <Value>Bausatz (Anschluss für tragbare Tanks)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8691,17 +8731,17 @@ Um mit dem Splicing zu beginnen, lege eine Pflanze oder einen Samenbeutel in den
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketCelestialTracker</Key>
-      <Value>Raketen-Himmels-Tracker</Value>
+      <Value>Raketen-Astro-Tracker</Value>
       <Description>Der Himmels-Tracker kann in Raketen platziert werden und liefert im eingeschalteten Zustand Daten, die zur Ausrichtung von Geräten wie dem {THING:StructureGroundBasedTelescope} verwendet werden können. Die horizontale und vertikale Ausgabe ist auf die Ausrichtung des Trackers lokalisiert. Du kannst deine Ausrichtung kalibrieren, indem du das Ergebnis für den Primärkörper mit der Ausgabe des {THING:StructureDaylightSensor} vergleichst. Die volle Funktionalität steht nur im Orbit zur Verfügung, aber die Konfiguration ist über den Primärkörper möglich. Zur Ausrichtung mit dem Teleskop muss die Frontplatte nach oben zeigen und die Kabel in dieselbe Richtung wie beim Teleskop verlaufen, dann werden die Ausgabewerte angeglichen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketCelestialTracker</Key>
-      <Value>Bausatz (Raketen-Himmels-Tracker)</Value>
+      <Value>Bausatz (Raketen-Astro-Tracker)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSensorProcessingUnitCelestialScanner</Key>
-      <Value>Sensor-Verarbeitungseinheit (Himmels-Scanner)</Value>
+      <Value>Sensor-Verarbeitungseinheit (Astro-Scanner)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8779,7 +8819,7 @@ Um mit dem Splicing zu beginnen, lege eine Pflanze oder einen Samenbeutel in den
       <Value>Rohrzünder</Value>
       <Description>Entzündet die Atmosphäre innerhalb des angeschlossenen Rohrnetzes.</Description>
     </RecordThing>
-<RecordThing>
+    <RecordThing>
       <Key>ItemPipeIgniter</Key>
       <Value>Bausatz (Rohrzünder)</Value>
       <Description />
@@ -9301,7 +9341,7 @@ Er ist für eine hervorragende thermische Leistung flüssigkeitsgekühlt und bie
       <Value>Raketen-Gasfiltrierung</Value>
       <Description>Ermöglicht eine grundlegende Gasfiltrierung an Bord einer Rakete.</Description>
     </RecordThing>
-<RecordThing>
+    <RecordThing>
       <Key>StructureRocketGasCollector</Key>
       <Value>Raketen-Gassammler</Value>
       <Description>Wenn dieses Gerät an einer Rakete montiert ist, ermöglicht es das Sammeln gasförmiger Atmosphären von verschiedenen Planetoiden.</Description>
@@ -9838,6 +9878,359 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
       <Value>Mittlerer Filter (Silanol)</Value>
       <Description />
     </RecordThing>
+    <RecordThing>
+      <Key>StructureEngineMountTypeE1</Key>
+      <Value>Triebwerkshalterung (Typ E1)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureEngineMountTypeE2</Key>
+      <Value>Triebwerkshalterung (Typ E2)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFairingTypeE1</Key>
+      <Value>Nutzlastverkleidung (Typ E1)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFuselageTypeE1</Key>
+      <Value>Rumpf (Typ E1)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFuselageTypeE</Key>
+      <Value>Bausatz (Rumpf Typ E)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorEpi</Key>
+      <Value>Autoinjektor (Stim)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorHealth</Key>
+      <Value>Autoinjektor (Gesundheit)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorStun</Key>
+      <Value>Autoinjektor (Betäubung)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorDex</Key>
+      <Value>Injektor Dex</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWaterPacket</Key>
+      <Value>Wasserpaket</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleFuselage</Key>
+      <Value>Crew-Modul-Rumpf (Typ C)</Value>
+      <Description>Stromlinienförmiges Mannschaftsabteil für Raketen. Einsteigen durch Interaktion mit dem Modul.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWasteBagEmpty</Key>
+      <Value>Abfallbeutel</Value>
+      <Description>Ein Einwegbeutel, mit dem {LINK:SanitationPage;Sanitär}-Bedürfnisse gestillt werden können. Kann nicht verwendet werden, während der {SLOT:Suit} getragen wird.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWasteBagFilled</Key>
+      <Value>Abfallbeutel (Gefüllt)</Value>
+      <Description>Ein teilweise oder vollständig benutzter Einwegbeutel, mit dem {LINK:SanitationPage;Sanitär}-Bedürfnisse gestillt werden können, solange noch Platz vorhanden ist. Kann nicht verwendet werden, während der {SLOT:Suit} getragen wird.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureToiletModern</Key>
+      <Value>Moderne Toilette</Value>
+      <Description>Eine Vorrichtung zur Reduzierung von {LINK:SanitationPage;Sanitär}-Bedürfnissen. Benötigt {GAS:Water} und gibt {GAS:PollutedWater} von den Benutzern ab.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitToilet</Key>
+      <Value>Bausatz (Toilette)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>OrganStomach</Key>
+      <Value>Magen</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModulePassiveVent</Key>
+      <Value>Crew-Modul Passiventlüftung</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleActiveVent</Key>
+      <Value>Crew-Modul Aktivlüfter</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWaterPacket</Key>
+      <Value>Wasserpaket</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWasteBagEmpty</Key>
+      <Value>Abfallbeutel</Value>
+      <Description>Ein Einwegbeutel, mit dem {LINK:SanitationPage;Sanitär}-Bedürfnisse gestillt werden können. Kann nicht verwendet werden, während der {SLOT:Suit} getragen wird.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWasteBagFilled</Key>
+      <Value>Abfallbeutel (Gefüllt)</Value>
+      <Description>Ein teilweise oder vollständig benutzter Einwegbeutel, mit dem {LINK:SanitationPage;Sanitär}-Bedürfnisse gestillt werden können, solange noch Platz vorhanden ist. Kann nicht verwendet werden, während der {SLOT:Suit} getragen wird.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSurvivalBelt</Key>
+      <Value>Überlebensgürtel</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleFuselageSimple</Key>
+      <Value>Crew-Modul-Rumpf (Typ A)</Value>
+      <Description>Kompaktes Mannschaftsabteil für Raketen. Einsteigen durch Interaktion mit dem Modul.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemClothingBagOveralls_Paintable</Key>
+      <Value>Overall (Färbbar)</Value>
+      <Description>Ein Overall, der mit Sprühfarben eingefärbt werden kann.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicRocketUplinkCompact</Key>
+      <Value>Logik-Uplink (Kompakt)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleChair</Key>
+      <Value>Bausatz (Crew-Modul-Sitz)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleCableConnector</Key>
+      <Value>Bausatz (Crew-Modul-Kabelanschluss)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleScreen</Key>
+      <Value>Bausatz (Crew-Modul-Bildschirm)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewBulkhead</Key>
+      <Value>Crew-Schott</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleElectronics</Key>
+      <Value>Bausatz (Crew-Elektronik)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleLight</Key>
+      <Value>Crew-Leuchte</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight3</Key>
+      <Value>Kabel (Gerade 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight3Burnt</Key>
+      <Value>Verbranntes Kabel (Gerade 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight5</Key>
+      <Value>Kabel (Gerade 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight5Burnt</Key>
+      <Value>Verbranntes Kabel (Gerade 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight10</Key>
+      <Value>Kabel (Gerade 10)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight10Burnt</Key>
+      <Value>Verbranntes Kabel (Gerade 10)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_ArrowPiece</Key>
+      <Value>Landepad-Pfeil</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5</Key>
+      <Value>Solarpanel (Dual 1x5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5Reinforced</Key>
+      <Value>Schweres Solarpanel (Dual 1x5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED1x2Side</Key>
+      <Value>LED-Anzeige (Mittel, Seitlich)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED1x2Back</Key>
+      <Value>LED-Anzeige (Mittel, Hinten)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5ReinforcedSingle</Key>
+      <Value>Schweres Solarpanel (1x5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureH2Combustor1</Key>
+      <Value>H2-Verbrenner 1</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCombustor</Key>
+      <Value>Verbrennungskammer</Value>
+      <Description>Die Verbrennungskammer führt eine kontrollierte Verbrennung eines Gemischs durch, das aus einem Gaseinlass und einem Flüssigkeitseinlass bezogen wird. Ein Steuerrad legt das Mischverhältnis beider Eingänge fest – ähnlich wie beim {THING:StructureGasMixer} –, und das Gemisch wird vor der Weiterleitung an den Ausgang verbrannt.
+
+Was die Verbrennungskammer erzeugt, hängt vollständig davon ab, womit sie gespeist wird. Siehe Seite {LINK:GasPage;Gase}, um zu erfahren, zu was die jeweiligen Kombinationen verbrennen.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5Single</Key>
+      <Value>Solarpanel (1x5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPowerPylon</Key>
+      <Value>Bausatz (Strommast)</Value>
+      <Description>Errichtet alle Bestandteile einer Strommast-Leitungstradse.
+
+Zwei Bausätze errichten einen {THING:StructurePowerPylon}, und ein Bausatz platziert eine {THING:StructurePowerPylonTerminus}.
+
+Die Leitung selbst wird separat mit {THING:ItemCableCoilSuperHeavy} gespannt.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerPylon</Key>
+      <Value>Strommast</Value>
+      <Description>Überträgt Strom über Gelände, in dem das Verlegen von Kabeln unpraktisch ist.
+
+Masten werden mit {THING:ItemCableCoilSuperHeavy} bespannt. Halte eine Spule, klicke auf einen Knotenpunkt, um eine Trasse zu beginnen, und auf einen anderen Knotenpunkt, um sie abzuschließen. Eine einzelne Spanne reicht bis zu 40 m weit und kostet je nach Distanz zwischen 5 und 30 Kabel der Spule. Das Kabel benötigt freie Sichtlinie; Gelände, Wände und Strukturen zwischen den beiden Knotenpunkten blockieren die Verbindung.
+
+Ein Mast verfügt über zwei Knotenpunkte und jeder Knotenpunkt nimmt eine Trasse auf, sodass ein Mast eine Leitung weiterführt, anstatt sie zu verzweigen. Trenne eine Trasse mit dem {THING:ItemWireCutters}, um ihr Kabel zurückzuerhalten; der Rückbau eines Masts gibt das Kabel aller noch befestigten Trassen zurück.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerPylonInput</Key>
+      <Value>Strommast-Eingang</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerPylonOutput</Key>
+      <Value>Strommast-Ausgang</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCableGun</Key>
+      <Value>Kabelpistole</Value>
+      <Description>Erstellt mühelos lange, gerade Kabelabschnitte.
+
+Funktioniert mit {THING:ItemCableCoil}, {THING:ItemCableCoilHeavy} und {THING:ItemCableCoilSuperHeavy}. Die Kabelpistole verwendet wann immer möglich die langen Kabelvarianten.
+
+Die Kabelpistole kann ihre Kabel nicht mit bereits verlegten Kabeln verbinden.
+
+Ein Kabelabschnitt kann nur so lang sein, wie es die in der Pistole geladene Spule erlaubt; Spulen an einem {THING:ItemCableToolBelt} erweitern dies nicht. Sobald die geladene Spule aufgebraucht ist, wird automatisch eine passende Spule aus dem Gürtel nachgeladen.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH3</Key>
+      <Value>Schweres Kabel (Gerade 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH3Burnt</Key>
+      <Value>Verbranntes schweres Kabel (Gerade 3)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH5</Key>
+      <Value>Schweres Kabel (Gerade 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH5Burnt</Key>
+      <Value>Verbranntes schweres Kabel (Gerade 5)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH10</Key>
+      <Value>Schweres Kabel (Gerade 10)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH10Burnt</Key>
+      <Value>Verbranntes schweres Kabel (Gerade 10)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerPylonTerminus</Key>
+      <Value>Strommast-Endpunkt</Value>
+      <Description>Bindet eine Freileitung in ein gewöhnliches Kabelnetz ein.
+
+Der Endpunkt zählt als Teilstück eines überschweren Kabels, sodass alles, was über die Freileitung erreichbar ist, zu einem gemeinsamen Netzwerk mit den am Endpunkt angeschlossenen Komponenten wird.
+
+Er verfügt über einen einzelnen Knotenpunkt, der eine Trasse aus {THING:ItemCableCoilSuperHeavy} aufnimmt. Ein Endpunkt kann nicht direkt mit einem anderen Endpunkt verbunden werden; die Trasse muss über mindestens einen {THING:StructurePowerPylon} verlaufen.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicOrbitalLaunchMountPayload</Key>
+      <Value>Nutzlast für Orbitale Startrampe</Value>
+      <Description>Wenn an einer {THING:StructureRocketLargePayloadBay} angebracht, kann die {THING:DynamicOrbitalLaunchMountPayload} im niedrigen Orbit ausgesetzt werden, wo sie sich zu einer {THING:StructureLaunchMountOrbital} entfaltet. Raketen können dort anschließend gebaut werden und landen, und bemannte Raketen können zwischen ihr und Startrampen auf der Oberfläche reisen.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitOrbitalLaunchMountPayload</Key>
+      <Value>Bausatz (Nutzlast für Orbitale Startrampe)</Value>
+      <Description>Konstruiert eine {THING:DynamicOrbitalLaunchMountPayload}, die in einer {THING:StructureRocketLargePayloadBay} in den niedrigen Orbit transportiert werden kann.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleChair</Key>
+      <Value>Besatzungsmodul-Sitz</Value>
+      <Description>Sitz zur Bemannung einer Rakete. Während der Sitz besetzt ist, kann die Rakete nur zwischen Startrampen reisen, und der Sitz kann nur verlassen werden, wenn die Rakete auf einer gelandet ist.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleScreen</Key>
+      <Value>Besatzungsmodul-Bildschirm</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewParts</Key>
+      <Value>Bausatz (Besatzungsteile)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicOrbitalLaunchMountPayload</Key>
+      <Value>Nutzlast für Orbitale Startrampe</Value>
+      <Description>Wenn an einer {THING:StructureRocketLargePayloadBay} angebracht, kann die {THING:DynamicOrbitalLaunchMountPayload} im niedrigen Orbit ausgesetzt werden, wo sie sich zu einer {THING:StructureLaunchMountOrbital} entfaltet. Raketen können dort anschließend gebaut werden und landen, und bemannte Raketen können zwischen ihr und Startrampen auf der Oberfläche reisen.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitOrbitalLaunchMountPayload</Key>
+      <Value>Bausatz (Nutzlast für Orbitale Startrampe)</Value>
+      <Description>Konstruiert eine {THING:DynamicOrbitalLaunchMountPayload}, die in einer {THING:StructureRocketLargePayloadBay} in den niedrigen Orbit transportiert werden kann.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleChair</Key>
+      <Value>Besatzungsmodul-Sitz</Value>
+      <Description>Sitz zur Bemannung einer Rakete. Während der Sitz besetzt ist, kann die Rakete nur zwischen Startrampen reisen, und der Sitz kann nur verlassen werden, wenn die Rakete auf einer gelandet ist.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleScreen</Key>
+      <Value>Besatzungsmodul-Bildschirm</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewParts</Key>
+      <Value>Bausatz (Besatzungsteile)</Value>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -9903,6 +10296,10 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
     <Record>
       <Key>Battery</Key>
       <Value>Batterie</Value>
+    </Record>
+    <Record>
+      <Key>CableAmmo</Key>
+      <Value>Kabel-Munition</Value>
     </Record>
     <Record>
       <Key>Egg</Key>
@@ -10109,6 +10506,14 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
       <Value>Programmierbarer Chip</Value>
     </Record>
     <Record>
+      <Key>AutoInjector</Key>
+      <Value>Autoinjektor</Value>
+    </Record>
+    <Record>
+      <Key>Stomach</Key>
+      <Value>Magen</Value>
+    </Record>
+    <Record>
       <Key>CreditCard</Key>
       <Value>Kreditkarte</Value>
     </Record>
@@ -10139,6 +10544,10 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
     <Record>
       <Key>SensorProcessingUnit</Key>
       <Value>Sensor-Verarbeitungseinheit</Value>
+    </Record>
+    <Record>
+      <Key>LiquidCanister</Key>
+      <Value>Flüssigkeitskanister</Value>
     </Record>
     <Record>
       <Key>HandSlot</Key>
@@ -12468,7 +12877,7 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
       <Key>VenusNamedRegionPersephoneBasinName</Key>
       <Value>Persephone-Becken</Value>
     </Record>
-<Record>
+    <Record>
       <Key>VenusNamedRegionHecateFlatsName</Key>
       <Value>Hecate-Ebenen</Value>
     </Record>
@@ -14204,7 +14613,7 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
       <Key>SettingsMenuControls</Key>
       <Value>Steuerung</Value>
     </Record>
-<Record>
+    <Record>
       <Key>SettingsMenuMisc</Key>
       <Value>Sonstiges</Value>
     </Record>
@@ -14443,6 +14852,10 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
     <Record>
       <Key>ButtonOk</Key>
       <Value>OK</Value>
+    </Record>
+    <Record>
+      <Key>ServerAnnouncement</Key>
+      <Value>Ankündigung</Value>
     </Record>
     <Record>
       <Key>InputPassword</Key>
@@ -14805,7 +15218,7 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
     </Record>
     <Record>
       <Key>PromptRespawnConfirm</Key>
-      <Value>Respawn</Value>
+      <Value>Wiederbeleben</Value>
     </Record>
     <Record>
       <Key>PromptGiveUpTitle</Key>
@@ -14873,7 +15286,7 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
     </Record>
     <Record>
       <Key>GiveUpPromptOptionGiveUp</Key>
-      <Value>Respawn</Value>
+      <Value>Wiederbeleben</Value>
     </Record>
     <Record>
       <Key>GiveUpPromptOptionCancel</Key>
@@ -14901,7 +15314,10 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
     </Record>
     <Record>
       <Key>AlertNoResponse</Key>
-      <Value>Keine Antwort vom Game-Server. Bitte versuche es erneut.</Value>
+      <Value>
+	    Keine Antwort vom Game-Server.
+		Bitte versuche es erneut.
+	  </Value>
     </Record>
     <Record>
       <Key>AlertKicked</Key>
@@ -15151,7 +15567,7 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
       <Key>NewWorldAreaCustom</Key>
       <Value>Benutzerdefiniert</Value>
     </Record>
-<Record>
+    <Record>
       <Key>NewWorldMoonDesc</Key>
       <Value>
         Du steckst also auf dem Mond fest, aber es ist nicht alles schlecht. Sicher, es ist kalt, hart und ziemlich eintönig, aber wenigstens scheint die Sonne. Das Solarpaneel wird nützlich sein, ebenso wie die Energiesteuerung... und wahrscheinlich auch der Lichtbogenofen.
@@ -15215,7 +15631,7 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
     </Record>
     <Record>
       <Key>GameMenuRespawn</Key>
-      <Value>Respawn</Value>
+      <Value>Wiederbeleben</Value>
     </Record>
     <Record>
       <Key>MainMenuScenarios</Key>
@@ -15374,7 +15790,7 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
     </Record>
     <Record>
       <Key>NewWorldMarsShortDesc</Key>
-      <Value>Mars ist eine öde, staubige rote Kugel und bietet abwechslungsreicheres Gelände, das hoch in den Himmel ragen kann, sowie eine kühle Atmosphäre, die nicht zum Atmen geeignet ist, aber vielleicht für etwas anderes genutzt werden kann...</Value>
+      <Value>Als trostlose, staubige rote Kugel bietet der Mars abwechslungsreicheres Terrain, das bis in den Himmel ragen kann, und eine kühle Atmosphäre, die zum Atmen ungeeignet ist – aber vielleicht lässt sie sich ja für etwas nutzen...</Value>
     </Record>
     <Record>
       <Key>NewWorldAlienWorldShortDesc</Key>
@@ -15904,7 +16320,7 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
       <Key>LogicTypePressureOutput2</Key>
       <Value>Der aktuelle Druckwert des Ausgangsnetzes 2 des Geräts</Value>
     </Record>
-<Record>
+    <Record>
       <Key>LogicTypeTemperatureOutput2</Key>
       <Value>Der aktuelle Temperaturwert des Ausgangsnetzes 2 des Geräts</Value>
     </Record>
@@ -15979,10 +16395,6 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
     <Record>
       <Key>LogicTypeRatioCarbonDioxideInput</Key>
       <Value>Der Anteil von {GAS:CarbonDioxide} im Eingangsnetz des Geräts</Value>
-    </Record>
-    <Record>
-      <Key>LogicTypeRatioValueNitrogenInput</Key>
-      <Value>Der Anteil von Stickstoff im Eingangsnetz des Geräts</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioPollutantInput</Key>
@@ -16541,7 +16953,7 @@ Es ist ein unumstößliches universelles Gesetz, dass alles über 11 Lila sein w
       <Key>FuelInTankRemaining</Key>
       <Value>Ruft den verbleibenden Treibstoff im Treibstofftank deiner Rakete ab.</Value>
     </Record>
-<Record>
+    <Record>
       <Key>FuelReturnCost</Key>
       <Value>Ruft die Treibstoffkosten für die Rückkehr der Rakete in deine aktuelle Welt ab.</Value>
     </Record>
@@ -17018,7 +17430,7 @@ Es ist ein unumstößliches universelles Gesetz, dass alles über 11 Lila sein w
       <Value>Der Anteil von {GAS:LiquidOzone} in der Ausgang2-Atmosphäre des Geräts</Value>
     </Record>
     <Record>
-    <Key>AppearanceButtonRandomize</Key>
+      <Key>AppearanceButtonRandomize</Key>
       <Value>Zufällig</Value>
     </Record>
     <Record>
@@ -17533,7 +17945,7 @@ Es ist ein unumstößliches universelles Gesetz, dass alles über 11 Lila sein w
       <Key>CartridgeElectronicReaderAutoHashTitle</Key>
       <Value>Hash:</Value>
     </Record>
-<Record>
+    <Record>
       <Key>ElectronicReaderWeightSymbol</Key>
       <Value>g</Value>
     </Record>
@@ -18293,7 +18705,7 @@ Es ist ein unumstößliches universelles Gesetz, dass alles über 11 Lila sein w
       <Key>ScriptCommandTrunc</Key>
       <Value>Register = a ohne Nachkommastellen (abgeschnitten).</Value>
     </Record>
-<Record>
+    <Record>
       <Key>ScriptCommandCeil</Key>
       <Value>Register = kleinste Ganzzahl größer als a (Aufrunden)</Value>
     </Record>
@@ -18967,7 +19379,7 @@ Es wird weithin anerkannt, dass GeFabrik im Alleingang den Ruf der deutschen Fer
 Wenn Sie kürzlich mit Freunden oder der Familie außerweltlich kommuniziert haben, geschah dies über das Hiiragi-Netzwerk, auch wenn es unter dem Namen einer seiner vielen Tochtergesellschaften geführt wurde. Hiiragi ist zudem der führende Verkäufer für PCDs (Personal Communication Devices) sowie ein bedeutender, wenn auch schwer einzuschätzender Investor in terrestrischen Telekommunikationsnetzen.
       </Value>
     </Record>
-<Record>
+    <Record>
       <Key>Norsec</Key>
       <Value>Norsec</Value>
     </Record>
@@ -19400,7 +19812,9 @@ Das Programm rekrutiert aus dem Bauwesen, der Militär- und Luftfahrtindustrie, 
     </Record>
     <Record>
       <Key>StationpediaConstructionOptions</Key>
-      <Value>Bauoptionen</Value>
+      <Value>
+	    Bauoptionen
+	  </Value>
     </Record>
     <Record>
       <Key>StationpediaModeHeader</Key>
@@ -19453,6 +19867,18 @@ Das Programm rekrutiert aus dem Bauwesen, der Militär- und Luftfahrtindustrie, 
     <Record>
       <Key>HydrationCritical</Key>
       <Value>Hydratation Kritisch</Value>
+    </Record>
+    <Record>
+      <Key>SanitationCaution</Key>
+      <Value>Hygiene-Warnung</Value>
+    </Record>
+    <Record>
+      <Key>SanitationCritical</Key>
+      <Value>Hygiene kritisch</Value>
+    </Record>
+    <Record>
+      <Key>SoiledCritical</Key>
+      <Value>Beschmutzt</Value>
     </Record>
     <Record>
       <Key>MoodLow</Key>
@@ -19590,7 +20016,7 @@ Das Programm rekrutiert aus dem Bauwesen, der Militär- und Luftfahrtindustrie, 
       <Key>StationpediaGrowthTime</Key>
       <Value>Wachstumszeit:</Value>
     </Record>
-<Record>
+    <Record>
       <Key>MoleOxygenDescription</Key>
       <Value>Sauerstoff liefert Energie, wenn er bei der Verbrennung freigesetzt wird, und verbindet sich zudem mit Wasserstoff zu {GAS:Water}. Er wird von {LINK:OrganicPage;Pflanzen} erzeugt sowie durch die Verarbeitung von {THING:ItemOxite} gewonnen. Er ist bei niedrigen Temperaturen hochgradig entzündlich.</Value>
     </Record>
@@ -20055,6 +20481,14 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
       <Value>Abbrechen</Value>
     </Record>
     <Record>
+      <Key>RemoveNodesOfTypeButton</Key>
+      <Value>Knoten dieses Typs löschen</Value>
+    </Record>
+    <Record>
+      <Key>RemoveNodesOfTypeText</Key>
+      <Value>Dadurch werden alle Knoten des ausgewählten Typs an dieser Position gelöscht. Bist du sicher?</Value>
+    </Record>
+    <Record>
       <Key>ClearDestinationButton</Key>
       <Value>Ziel löschen</Value>
     </Record>
@@ -20095,6 +20529,10 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
       <Value>Anweisungen</Value>
     </Record>
     <Record>
+      <Key>StationpediaBindings</Key>
+      <Value>Tastenbelegungen</Value>
+    </Record>
+    <Record>
       <Key>StationpediaInternalMemory</Key>
       <Value>Interner Speicher</Value>
     </Record>
@@ -20124,7 +20562,15 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
     </Record>
     <Record>
       <Key>TerrainEditStartConditionDescription</Key>
-      <Value>Beginne mit Debug-Tools, um das Gelände schnell zu bearbeiten.</Value>
+      <Value>Starte mit Debug-Werkzeugen, um Gelände schnell zu bearbeiten.</Value>
+    </Record>
+    <Record>
+      <Key>DefaultStartCondition</Key>
+      <Value>Standard</Value>
+    </Record>
+    <Record>
+      <Key>DefaultStartConditionDescription</Key>
+      <Value>Du startest mit den grundlegenden Dingen, die du für den Aufbau einer abgelegenen Basis benötigst – systematisch angeordnet in einem Lander, der mit Kisten und Paketen bestückt ist.</Value>
     </Record>
     <Record>
       <Key>DefaultScenarioStartCondition</Key>
@@ -20290,7 +20736,7 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
       <Key>WorldObjectiveBuildRoom</Key>
       <Value>Baue einen Raum mit einer Tür</Value>
     </Record>
-<Record>
+    <Record>
       <Key>WorldObjectiveFillOxygen</Key>
       <Value>Einen Raum mit Sauerstoff füllen</Value>
     </Record>
@@ -20638,7 +21084,7 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
       <Key>Tutorial2WrenchTankHeading</Key>
       <Value>Verbinde den Wassertank mit dem Anschluss in der Ecke</Value>
     </Record>
-<Record>
+    <Record>
       <Key>Tut2DragTank</Key>
       <Value>Ziehe den {THING:DynamicLiquidCanisterEmpty} mithilfe der seitlichen Griffe oben auf den {THING:StructurePortablesConnector}.</Value>
     </Record>
@@ -21014,7 +21460,7 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
       <Key>FurnaceTutorialArcFurnaceName</Key>
       <Value>Lichtbogenofen</Value>
     </Record>
-<Record>
+    <Record>
       <Key>FurnaceTutorialArcFurnaceInfo</Key>
       <Value>Verschiedene Erze benötigen unterschiedliche Mengen an Strom zur Verarbeitung. {THING:ItemGoldOre} ist dabei am energiehungrigsten. Du solltest später deine Schaltkreise schützen, wenn du einen Lichtbogenofen zum Schmelzen verwendest.</Value>
     </Record>
@@ -21398,7 +21844,7 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
       <Key>HeaderSettings</Key>
       <Value>Einstellungen</Value>
     </Record>
-<Record>
+    <Record>
       <Key>StatusCriticalAirTankCritical</Key>
       <Value>Lufttank kritisch</Value>
     </Record>
@@ -21544,7 +21990,11 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
     </Record>
     <Record>
       <Key>StatusWarningZeroGee</Key>
-      <Value>Null-G</Value>
+      <Value>Schwerelosigkeit</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningAcceleration</Key>
+      <Value>Beschleunigung</Value>
     </Record>
     <Record>
       <Key>StatusNoticeActiveHandOff</Key>
@@ -21564,7 +22014,15 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
     </Record>
     <Record>
       <Key>StatusNoticeJetpackOn</Key>
-      <Value>Jetpack Ein</Value>
+      <Value>Jetpack an</Value>
+    </Record>
+    <Record>
+      <Key>ConnectedSlot</Key>
+      <Value>Bildschirmverbindung</Value>
+    </Record>
+    <Record>
+      <Key>StatusNoticeHealingNotice</Key>
+      <Value>Heilung</Value>
     </Record>
     <Record>
       <Key>StatusNoticeLightOff</Key>
@@ -22227,20 +22685,20 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
       <Value>Standard-Treibstoffgemisch</Value>
     </Record>
     <Record>
-        <Key>BuyDataBulkCarbonDioxide</Key>
-        <Value>Kohlendioxid</Value>
+      <Key>BuyDataBulkCarbonDioxide</Key>
+      <Value>Kohlendioxid</Value>
     </Record>
     <Record>
-        <Key>BuyDataBulkCarbonDioxideVenus</Key>
-        <Value>Kohlendioxid von der Venus</Value>
+      <Key>BuyDataBulkCarbonDioxideVenus</Key>
+      <Value>Kohlendioxid von der Venus</Value>
     </Record>
     <Record>
-        <Key>BuyDataBulkCarbonDioxideMars</Key>
-        <Value>Kohlendioxid vom Mars</Value>
+      <Key>BuyDataBulkCarbonDioxideMars</Key>
+      <Value>Kohlendioxid vom Mars</Value>
     </Record>
     <Record>
-        <Key>BuyDataBulkWater</Key>
-        <Value>Wasser (Bulk)</Value>
+      <Key>BuyDataBulkWater</Key>
+      <Value>Wasser (Bulk)</Value>
     </Record>
     <Record>
       <Key>SellDataFernSeedPack</Key>
@@ -22898,7 +23356,7 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
       <Key>SurveyTarget200</Key>
       <Value>200% Bergbau-Boost (10%)</Value>
     </Record>
-<Record>
+    <Record>
       <Key>SurveyTarget1000</Key>
       <Value>1000 % Bergbau-Boost (25 %)</Value>
     </Record>
@@ -23046,6 +23504,166 @@ Vielen Dank für dein Verständnis. Wir können es kaum erwarten, dass du die Ne
       <Key>StationpediaFermentable</Key>
       <Value>Fermentierbar:</Value>
     </Record>
+    <Record>
+      <Key>Sanitation</Key>
+      <Value>Hygiene</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrogenInput</Key>
+      <Value>Der Anteil von Stickstoff im Eingangsnetz des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataNavigationPackage</Key>
+      <Value>Navigationspaket</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataMethaneCanister</Key>
+      <Value>Methankanister</Value>
+    </Record>
+    <Record>
+      <Key>FireStorm</Key>
+      <Value>Feuersturm</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataCryogenicsSupplyCrate</Key>
+      <Value>Kryotechnik-Vorratskiste</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkOzone</Key>
+      <Value>Ozon (Großmenge)</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkHydrazine</Key>
+      <Value>Hydrazin (Großmenge)</Value>
+    </Record>
+    <Record>
+      <Key>SellDataHydrazineCanister</Key>
+      <Value>Hydrazinkanister</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicCare</Key>
+      <Value>Cosmic Care</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarMedical</Key>
+      <Value>Stellar Medical Supplies</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitalApothecary</Key>
+      <Value>Orbital Apothecary</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVitals</Key>
+      <Value>Void Vitals</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNursing</Key>
+      <Value>Nebula Nursing</Value>
+    </Record>
+    <Record>
+      <Key>TraderAsteroidAidStation</Key>
+      <Value>Asteroid Aid Station</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarInfirmary</Key>
+      <Value>Interstellar Infirmary</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGauze</Key>
+      <Value>Galactic Gauze</Value>
+    </Record>
+    <Record>
+      <Key>ButtonSurfaceScan</Key>
+      <Value>Oberflächenscan</Value>
+    </Record>
+    <Record>
+      <Key>ButtonTransfer</Key>
+      <Value>Transferieren</Value>
+    </Record>
+    <Record>
+      <Key>RemoveNodeOfTypeButton</Key>
+      <Value>Knotentyp entfernen</Value>
+    </Record>
+    <Record>
+      <Key>Sanitation</Key>
+      <Value>Hygiene</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrogenInput</Key>
+      <Value>Der Anteil von Stickstoff im Eingangsnetz des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataNavigationPackage</Key>
+      <Value>Navigationspaket</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataMethaneCanister</Key>
+      <Value>Methankanister</Value>
+    </Record>
+    <Record>
+      <Key>FireStorm</Key>
+      <Value>Feuersturm</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataCryogenicsSupplyCrate</Key>
+      <Value>Kryotechnik-Vorratskiste</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkOzone</Key>
+      <Value>Ozon (Großmenge)</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkHydrazine</Key>
+      <Value>Hydrazin (Großmenge)</Value>
+    </Record>
+    <Record>
+      <Key>SellDataHydrazineCanister</Key>
+      <Value>Hydrazinkanister</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicCare</Key>
+      <Value>Cosmic Care</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarMedical</Key>
+      <Value>Stellar Medical Supplies</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitalApothecary</Key>
+      <Value>Orbital Apothecary</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVitals</Key>
+      <Value>Void Vitals</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNursing</Key>
+      <Value>Nebula Nursing</Value>
+    </Record>
+    <Record>
+      <Key>TraderAsteroidAidStation</Key>
+      <Value>Asteroid Aid Station</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarInfirmary</Key>
+      <Value>Interstellar Infirmary</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGauze</Key>
+      <Value>Galactic Gauze</Value>
+    </Record>
+    <Record>
+      <Key>ButtonSurfaceScan</Key>
+      <Value>Oberflächenscan</Value>
+    </Record>
+    <Record>
+      <Key>ButtonTransfer</Key>
+      <Value>Transferieren</Value>
+    </Record>
+    <Record>
+      <Key>RemoveNodeOfTypeButton</Key>
+      <Value>Knotentyp entfernen</Value>
+    </Record>
   </Interface>
   <Colors>
     <Record>
@@ -23095,6 +23713,38 @@ Vielen Dank für dein Verständnis. Wir können es kaum erwarten, dass du die Ne
     <Record>
       <Key>ColorPurple</Key>
       <Value>Lila</Value>
+    </Record>
+    <Record>
+      <Key>ColorObsidian</Key>
+      <Value>Obsidian</Value>
+    </Record>
+    <Record>
+      <Key>ColorSilver</Key>
+      <Value>Silber</Value>
+    </Record>
+    <Record>
+      <Key>ColorBronze</Key>
+      <Value>Bronze</Value>
+    </Record>
+    <Record>
+      <Key>ColorGold</Key>
+      <Value>Gold</Value>
+    </Record>
+    <Record>
+      <Key>ColorObsidian</Key>
+      <Value>Obsidian</Value>
+    </Record>
+    <Record>
+      <Key>ColorSilver</Key>
+      <Value>Silber</Value>
+    </Record>
+    <Record>
+      <Key>ColorBronze</Key>
+      <Value>Bronze</Value>
+    </Record>
+    <Record>
+      <Key>ColorGold</Key>
+      <Value>Gold</Value>
     </Record>
   </Colors>
   <Keys>
@@ -25115,7 +25765,7 @@ Status: {LOCAL:StatusValue}</Value>
       <Key>GlobalRelease</Key>
       <Value>Release &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
-<Record>
+    <Record>
       <Key>GlobalSpeed</Key>
       <Value>Geschwindigkeit &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
@@ -25723,7 +26373,7 @@ Status: {LOCAL:StatusValue}</Value>
       <Key>PlantNotGrowingSeed</Key>
       <Value>Die Pflanze ({LOCAL:Plant}) &lt;color=red&gt;wächst nicht&lt;/color&gt; und wird niemals Samen bilden</Value>
     </Record>
-<Record>
+    <Record>
       <Key>PlantBarelyGrowingSeed</Key>
       <Value>Die {LOCAL:Plant} wächst kaum in Richtung Samenbildung</Value>
     </Record>
@@ -26515,7 +27165,7 @@ Status: {LOCAL:StatusValue}</Value>
       <Key>HandSlotOccupied</Key>
       <Value>Hand-Slot ist belegt</Value>
     </Record>
-<Record>
+    <Record>
       <Key>ScriptDescriptionSrl</Key>
       <Value>Führt eine bitweise logische Verschiebung nach rechts auf der binären Darstellung eines Wertes aus. Es verschiebt die Bits nach rechts und füllt die frei gewordenen linken Bits mit Nullen auf.</Value>
     </Record>
@@ -26967,7 +27617,7 @@ Status: {LOCAL:StatusValue}</Value>
       <Key>LogicDescriptionTrueAnomaly</Key>
       <Value>Ein Winkelparameter, der die Position eines Körpers entlang einer keplerschen Umlaufbahn definiert. Es ist der Winkel zwischen der Richtung des Periapsis und der aktuellen Position des Körpers, gesehen vom Hauptbrennpunkt der Ellipse (dem Punkt, um den das Objekt kreist).</Value>
     </Record>
-<Record>
+    <Record>
       <Key>LogicDescriptionDiscover</Key>
       <Value>Fortschrittsstatus des Discovery-Scans am Zielort der Weltraumkarte. Gibt einen begrenzten, normalisierten Wert zurück. Wenn kein Discovery-Scan verfügbar ist, wird -1 zurückgegeben.</Value>
     </Record>
@@ -28556,7 +29206,7 @@ Status: {LOCAL:StatusValue}</Value>
       <Key>RoboticArmSetStartingDock</Key>
       <Value>Start-Dock festlegen</Value>
     </Record>
-<Record>
+    <Record>
       <Key>RoboticArmFull</Key>
       <Value>Der Speicher des Arms ist voll</Value>
     </Record>
@@ -29453,7 +30103,7 @@ Status: {LOCAL:StatusValue}</Value>
       <Key>DaylightSensorModeError</Key>
       <Value>Modus {LOCAL:Value} FEHLER</Value>
     </Record>
-<Record>
+    <Record>
       <Key>BatteryCellStateEmpty</Key>
       <Value>Leer</Value>
     </Record>
@@ -30272,6 +30922,374 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>ConstructionBlockedByDynamic</Key>
       <Value>Bau blockiert durch {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>FoodQualityLow</Key>
+      <Value>Niedrig</Value>
+    </Record>
+    <Record>
+      <Key>FoodQualityOk</Key>
+      <Value>Ok</Value>
+    </Record>
+    <Record>
+      <Key>FoodQualityGood</Key>
+      <Value>Gut</Value>
+    </Record>
+    <Record>
+      <Key>FoodQualityBest</Key>
+      <Value>Hervorragend</Value>
+    </Record>
+    <Record>
+      <Key>TooltipFoodQuality</Key>
+      <Value>Nahrungsqualität {LOCAL:Quality}</Value>
+    </Record>
+    <Record>
+      <Key>RocketDeployFailNoFreePosition</Key>
+      <Value>{LOCAL:Payload} Alle Einsatzpositionen im niedrigen Orbit sind belegt</Value>
+    </Record>
+    <Record>
+      <Key>RocketCannotExitSeatInFlight</Key>
+      <Value>Der Sitz kann nicht verlassen werden, solange die Rakete nicht auf einer Startrampe gelandet ist</Value>
+    </Record>
+    <Record>
+      <Key>RocketCrewModuleMannedTravel</Key>
+      <Value>Reise hierhin nicht möglich, solange das Besatzungsmodul bemannt ist</Value>
+    </Record>
+    <Record>
+      <Key>Waste</Key>
+      <Value>Abfall</Value>
+    </Record>
+    <Record>
+      <Key>Use</Key>
+      <Value>Verwenden</Value>
+    </Record>
+    <Record>
+      <Key>Healing</Key>
+      <Value>Heilung</Value>
+    </Record>
+    <Record>
+      <Key>SanitationNeed</Key>
+      <Value>Hygienebedürfnis</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotInPosition</Key>
+      <Value>{LOCAL:Occupant} ist nicht nah genug, um dies zu benutzen</Value>
+    </Record>
+    <Record>
+      <Key>DeviceCannotWhenWearing</Key>
+      <Value>Kann nicht benutzt werden, während {LOCAL:Thing} getragen wird</Value>
+    </Record>
+    <Record>
+      <Key>NoSanitationNeed</Key>
+      <Value>{LOCAL:Human} hat derzeit kein Hygienebedürfnis</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionSgn</Key>
+      <Value>Speichert das Vorzeichen von a im Register: -1 wenn a negativ ist, 1 wenn positiv, und 0 wenn a null ist (oder keine Zahl).</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionClamp</Key>
+      <Value>Speichert den auf den inklusiven Bereich [min, max] begrenzten Wert a im angegebenen Register.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionRol</Key>
+      <Value>Führt eine bitweise Linksrotation der Binärdarstellung von a um b Stellen durch, wobei aus der höchstwertigen Stelle herausgeschobene Bits an die niedrigstwertige Stelle rotieren.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionRor</Key>
+      <Value>Führt eine bitweise Rechtsrotation der Binärdarstellung von a um b Stellen durch, wobei aus der niedrigstwertigen Stelle herausgeschobene Bits an die höchstwertige Stelle rotieren.</Value>
+    </Record>
+    <Record>
+      <Key>TrackablePlayerBodyBag</Key>
+      <Value>{LOCAL:UserName}s Leichensack</Value>
+    </Record>
+    <Record>
+      <Key>Progress</Key>
+      <Value>Fortschritt</Value>
+    </Record>
+    <Record>
+      <Key>DistanceToBedRock</Key>
+      <Value>Distanz zum Grundgestein</Value>
+    </Record>
+    <Record>
+      <Key>Defibrillate</Key>
+      <Value>Defibrillieren</Value>
+    </Record>
+    <Record>
+      <Key>DefibrillatorNotOperable</Key>
+      <Value>Defibrillator ist für diese Aktion nicht einsatzbereit.</Value>
+    </Record>
+    <Record>
+      <Key>NoPartnerUmbilical</Key>
+      <Value>Keine Partner-Versorgungsleitung verbunden</Value>
+    </Record>
+    <Record>
+      <Key>RocketScannerWrongHeadType</Key>
+      <Value>{LOCAL:Thing}-Scankopf hat den falschen Typ für die gewünschte Aktion</Value>
+    </Record>
+    <Record>
+      <Key>RocketSurfaceScanActionInfo</Key>
+      <Value>Sende Scandaten an verbundene Karten-Hauptplatinen. Scanner: {LOCAL:OnOff}</Value>
+    </Record>
+    <Record>
+      <Key>RocketActionSurfaceScan</Key>
+      <Value>Scanne Oberfläche</Value>
+    </Record>
+    <Record>
+      <Key>RocketActionTransfer</Key>
+      <Value>Transferiere Ressourcen</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotEnoughWater</Key>
+      <Value>Nicht genug Wasser</Value>
+    </Record>
+    <Record>
+      <Key>DeviceWaterTooHot</Key>
+      <Value>Wasser ist zu heiß</Value>
+    </Record>
+    <Record>
+      <Key>DeviceWaterTooCold</Key>
+      <Value>Wasser ist zu kalt</Value>
+    </Record>
+    <Record>
+      <Key>DeviceWaterPolluted</Key>
+      <Value>Wasser ist verschmutzt</Value>
+    </Record>
+    <Record>
+      <Key>DeviceOutputFull</Key>
+      <Value>&lt;color=yellow&gt;Ausgangs&lt;/color&gt;-Netzwerk ist voll</Value>
+    </Record>
+    <Record>
+      <Key>DeviceMinimumPressure</Key>
+      <Value>Umgebungsatmosphäre muss mindestens {LOCAL:PRESSURE} betragen</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticSanitation</Key>
+      <Value>Hygiene</Value>
+    </Record>
+    <Record>
+      <Key>FermenterItemsLeftToFerment</Key>
+      <Value>Fermentiert &lt;color=yellow&gt;{LOCAL:Amount}&lt;/color&gt; × &lt;color=green&gt;{LOCAL:Value} {LOCAL:Percentage}%&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>FermenterWillProduce</Key>
+      <Value>Wird &lt;color=purple&gt;{LOCAL:Value}&lt;/color&gt; erzeugen.</Value>
+    </Record>
+    <Record>
+      <Key>FermenterInputIsEmpty</Key>
+      <Value>Kein fermentierbarer Gegenstand im Eingang.</Value>
+    </Record>
+    <Record>
+      <Key>RocketNoAvailableSeat</Key>
+      <Value>Kein freier Sitz im Besatzungsmodul</Value>
+    </Record>
+    <Record>
+      <Key>NoAvailableBattery</Key>
+      <Value>Keine Batterie verfügbar. Batterie muss eingeschaltet sein und Ladung enthalten</Value>
+    </Record>
+    <Record>
+      <Key>PowerTransferActionInfo</Key>
+      <Value>Übertrage Strom. Quelle {LOCAL:SourcePercent}. Ziel {LOCAL:TargetPercent}</Value>
+    </Record>
+    <Record>
+      <Key>NoUmbilicalForTransfer</Key>
+      <Value>Keine Versorgungsleitung für Transfer vorhanden</Value>
+    </Record>
+    <Record>
+      <Key>GasTransferActionInfo</Key>
+      <Value>Übertrage Gase und Flüssigkeiten. </Value>
+    </Record>
+    <Record>
+      <Key>ActionSource</Key>
+      <Value>Quelle </Value>
+    </Record>
+    <Record>
+      <Key>ActionTarget</Key>
+      <Value>Ziel </Value>
+    </Record>
+    <Record>
+      <Key>FoodQualityLow</Key>
+      <Value>Niedrig</Value>
+    </Record>
+    <Record>
+      <Key>FoodQualityOk</Key>
+      <Value>Ok</Value>
+    </Record>
+    <Record>
+      <Key>FoodQualityGood</Key>
+      <Value>Gut</Value>
+    </Record>
+    <Record>
+      <Key>FoodQualityBest</Key>
+      <Value>Hervorragend</Value>
+    </Record>
+    <Record>
+      <Key>TooltipFoodQuality</Key>
+      <Value>Nahrungsqualität {LOCAL:Quality}</Value>
+    </Record>
+    <Record>
+      <Key>RocketDeployFailNoFreePosition</Key>
+      <Value>{LOCAL:Payload} Alle Einsatzpositionen im niedrigen Orbit sind belegt</Value>
+    </Record>
+    <Record>
+      <Key>RocketCannotExitSeatInFlight</Key>
+      <Value>Der Sitz kann nicht verlassen werden, solange die Rakete nicht auf einer Startrampe gelandet ist</Value>
+    </Record>
+    <Record>
+      <Key>RocketCrewModuleMannedTravel</Key>
+      <Value>Reise hierhin nicht möglich, solange das Besatzungsmodul bemannt ist</Value>
+    </Record>
+    <Record>
+      <Key>Waste</Key>
+      <Value>Abfall</Value>
+    </Record>
+    <Record>
+      <Key>Use</Key>
+      <Value>Verwenden</Value>
+    </Record>
+    <Record>
+      <Key>Healing</Key>
+      <Value>Heilung</Value>
+    </Record>
+    <Record>
+      <Key>SanitationNeed</Key>
+      <Value>Hygienebedürfnis</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotInPosition</Key>
+      <Value>{LOCAL:Occupant} ist nicht nah genug, um dies zu benutzen</Value>
+    </Record>
+    <Record>
+      <Key>DeviceCannotWhenWearing</Key>
+      <Value>Kann nicht benutzt werden, während {LOCAL:Thing} getragen wird</Value>
+    </Record>
+    <Record>
+      <Key>NoSanitationNeed</Key>
+      <Value>{LOCAL:Human} hat derzeit kein Hygienebedürfnis</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionSgn</Key>
+      <Value>Speichert das Vorzeichen von a im Register: -1 wenn a negativ ist, 1 wenn positiv, und 0 wenn a null ist (oder keine Zahl).</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionClamp</Key>
+      <Value>Speichert den auf den inklusiven Bereich [min, max] begrenzten Wert a im angegebenen Register.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionRol</Key>
+      <Value>Führt eine bitweise Linksrotation der Binärdarstellung von a um b Stellen durch, wobei aus der höchstwertigen Stelle herausgeschobene Bits an die niedrigstwertige Stelle rotieren.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionRor</Key>
+      <Value>Führt eine bitweise Rechtsrotation der Binärdarstellung von a um b Stellen durch, wobei aus der niedrigstwertigen Stelle herausgeschobene Bits an die höchstwertige Stelle rotieren.</Value>
+    </Record>
+    <Record>
+      <Key>TrackablePlayerBodyBag</Key>
+      <Value>{LOCAL:UserName}s Leichensack</Value>
+    </Record>
+    <Record>
+      <Key>Progress</Key>
+      <Value>Fortschritt</Value>
+    </Record>
+    <Record>
+      <Key>DistanceToBedRock</Key>
+      <Value>Distanz zum Grundgestein</Value>
+    </Record>
+    <Record>
+      <Key>Defibrillate</Key>
+      <Value>Defibrillieren</Value>
+    </Record>
+    <Record>
+      <Key>DefibrillatorNotOperable</Key>
+      <Value>Defibrillator ist für diese Aktion nicht einsatzbereit.</Value>
+    </Record>
+    <Record>
+      <Key>NoPartnerUmbilical</Key>
+      <Value>Keine Partner-Versorgungsleitung verbunden</Value>
+    </Record>
+    <Record>
+      <Key>RocketScannerWrongHeadType</Key>
+      <Value>{LOCAL:Thing}-Scankopf hat den falschen Typ für die gewünschte Aktion</Value>
+    </Record>
+    <Record>
+      <Key>RocketSurfaceScanActionInfo</Key>
+      <Value>Sende Scandaten an verbundene Karten-Hauptplatinen. Scanner: {LOCAL:OnOff}</Value>
+    </Record>
+    <Record>
+      <Key>RocketActionSurfaceScan</Key>
+      <Value>Scanne Oberfläche</Value>
+    </Record>
+    <Record>
+      <Key>RocketActionTransfer</Key>
+      <Value>Transferiere Ressourcen</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotEnoughWater</Key>
+      <Value>Nicht genug Wasser</Value>
+    </Record>
+    <Record>
+      <Key>DeviceWaterTooHot</Key>
+      <Value>Wasser ist zu heiß</Value>
+    </Record>
+    <Record>
+      <Key>DeviceWaterTooCold</Key>
+      <Value>Wasser ist zu kalt</Value>
+    </Record>
+    <Record>
+      <Key>DeviceWaterPolluted</Key>
+      <Value>Wasser ist verschmutzt</Value>
+    </Record>
+    <Record>
+      <Key>DeviceOutputFull</Key>
+      <Value>&lt;color=yellow&gt;Ausgangs&lt;/color&gt;-Netzwerk ist voll</Value>
+    </Record>
+    <Record>
+      <Key>DeviceMinimumPressure</Key>
+      <Value>Umgebungsatmosphäre muss mindestens {LOCAL:PRESSURE} betragen</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticSanitation</Key>
+      <Value>Hygiene</Value>
+    </Record>
+    <Record>
+      <Key>FermenterItemsLeftToFerment</Key>
+      <Value>Fermentiert &lt;color=yellow&gt;{LOCAL:Amount}&lt;/color&gt; × &lt;color=green&gt;{LOCAL:Value} {LOCAL:Percentage}%&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>FermenterWillProduce</Key>
+      <Value>Wird &lt;color=purple&gt;{LOCAL:Value}&lt;/color&gt; erzeugen.</Value>
+    </Record>
+    <Record>
+      <Key>FermenterInputIsEmpty</Key>
+      <Value>Kein fermentierbarer Gegenstand im Eingang.</Value>
+    </Record>
+    <Record>
+      <Key>RocketNoAvailableSeat</Key>
+      <Value>Kein freier Sitz im Besatzungsmodul</Value>
+    </Record>
+    <Record>
+      <Key>NoAvailableBattery</Key>
+      <Value>Keine Batterie verfügbar. Batterie muss eingeschaltet sein und Ladung enthalten</Value>
+    </Record>
+    <Record>
+      <Key>PowerTransferActionInfo</Key>
+      <Value>Übertrage Strom. Quelle {LOCAL:SourcePercent}. Ziel {LOCAL:TargetPercent}</Value>
+    </Record>
+    <Record>
+      <Key>NoUmbilicalForTransfer</Key>
+      <Value>Keine Versorgungsleitung für Transfer vorhanden</Value>
+    </Record>
+    <Record>
+      <Key>GasTransferActionInfo</Key>
+      <Value>Übertrage Gase und Flüssigkeiten. </Value>
+    </Record>
+    <Record>
+      <Key>ActionSource</Key>
+      <Value>Quelle </Value>
+    </Record>
+    <Record>
+      <Key>ActionTarget</Key>
+      <Value>Ziel </Value>
     </Record>
   </GameStrings>
   <GameTip />

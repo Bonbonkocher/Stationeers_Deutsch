@@ -14,7 +14,7 @@ Set-Location $PROJEKT_ROOT
 $DATEI_VERSION  = Join-Path $ORDNER_SCRIPTS "version.txt"
 $DATEI_NAME     = Join-Path $ORDNER_SCRIPTS "name.txt"
 $VDF_PFAD       = Join-Path $PROJEKT_ROOT "update_mod.vdf"
-$STEAMCMD_PFAD  = "C:\MeineProgramme\Jens\GitHub-Projekte\Stationeers\SteamCMD\steamcmd.exe"
+$STEAMCMD_PFAD  = Join-Path $PROJEKT_ROOT "steamcmd\steamcmd.exe"
 
 # Definition der Pakete (relativ zum Projekt-Root)
 $DATEIEN_NORMAL = @("StationeersDE\rocketstation_Data")
@@ -92,37 +92,44 @@ while ($true) {
             Write-Host "`n--- SYNCHRONISIEREN & ZIP ERSTELLUNG ---" -ForegroundColor Yellow
             
             # 1. Sprachdateien synchronisieren (aus Projekt-Root)
-            $quelleLang = Join-Path$PROJEKT_ROOT "StationeersDE\rocketstation_Data\StreamingAssets\Language"
-            $zielLang   = Join-Path$PROJEKT_ROOT "SteamMod\GameData\Language"
+            $quelleLang = Join-Path $PROJEKT_ROOT "StationeersDE\rocketstation_Data\StreamingAssets\Language"
+            $zielLang   = Join-Path $PROJEKT_ROOT "SteamMod\GameData\Language"
             if (Test-Path $quelleLang) {
-                if (Test-Path $zielLang) { Remove-Item$zielLang -Recurse -Force }
-                Copy-Item -Path $quelleLang -Destination$zielLang -Recurse -Force
+                if (Test-Path $zielLang) { Remove-Item $zielLang -Recurse -Force }
+                Copy-Item -Path $quelleLang -Destination $zielLang -Recurse -Force
                 Write-Host "Sprachdateien synchronisiert." -ForegroundColor Green
             } else {
                 Write-Host "WARNUNG: Quellordner nicht gefunden: $quelleLang" -ForegroundColor Red
             }
 
             # 2. XML Version aktualisieren (Verwendet Set-Content, keine Pipe!)
-            $xmlPfad = Join-Path$PROJEKT_ROOT "SteamMod\About\SteamAbout.xml"
-            if (Test-Path $xmlPfad) {$content = Get-Content $xmlPfad -Raw$neuerContent = $content -replace '<Version>.*</Version>', "<Version>v$aktuelleVersion</Version>"
-                Set-Content -Path $xmlPfad -Value$neuerContent -Encoding utf8 -Force
-                Write-Host "SteamAbout.xml auf v$aktuelleVersion aktualisiert." -ForegroundColor Green
+            $xmlPfad = Join-Path $PROJEKT_ROOT "SteamMod\About\About.xml"
+            if (Test-Path $xmlPfad) {
+				$content = Get-Content $xmlPfad -Raw
+				$neuerContent = $content -replace '<Version>.*</Version>', "<Version>v$aktuelleVersion</Version>"
+                Set-Content -Path $xmlPfad -Value $neuerContent -Encoding utf8 -Force
+                Write-Host "About.xml auf v$aktuelleVersion aktualisiert." -ForegroundColor Green
             } else {
-                Write-Host "WARNUNG: SteamAbout.xml nicht gefunden: $xmlPfad" -ForegroundColor Red
+                Write-Host "WARNUNG: About.xml nicht gefunden: $xmlPfad" -ForegroundColor Red
             }
             
-            # 3. ZIPs erstellen
-            $zipOrdner = Join-Path$PROJEKT_ROOT "zip"
-            if (!(Test-Path $zipOrdner)) { New-Item -ItemType Directory -Path$zipOrdner -Force | Out-Null }
+			# 3. ZIPs erstellen
+            $zipOrdner = Join-Path $PROJEKT_ROOT "zip"
+            if (!(Test-Path $zipOrdner)) { New-Item -ItemType Directory -Path $zipOrdner -Force | Out-Null }
             Remove-Item (Join-Path $zipOrdner "*.zip") -ErrorAction SilentlyContinue
             
-            $pfadNormal = Join-Path$zipOrdner "$MOD_NAME-$aktuelleVersion.zip"
-            $quellenNormal =$DATEIEN_NORMAL | ForEach-Object { Join-Path $PROJEKT_ROOT$_ }
-            Compress-Archive -Path $quellenNormal -DestinationPath$pfadNormal -Force
+            $pfadNormal = Join-Path $zipOrdner "$MOD_NAME-$aktuelleVersion.zip"
+            $quellenNormal = Join-Path $PROJEKT_ROOT "StationeersDE\rocketstation_Data"
+            Compress-Archive -Path $quellenNormal -DestinationPath $pfadNormal -Force
             
-            $pfadMod = Join-Path$zipOrdner "${MOD_NAME}_Mod-$aktuelleVersion.zip"
-            $quellenMod =$DATEIEN_MOD | ForEach-Object { Join-Path $PROJEKT_ROOT$_ }
-            Compress-Archive -Path $quellenMod -DestinationPath $pfadMod -Force$letzteAktion = "ZIPs erstellt ($aktuelleVersion)"
+            $pfadMod = Join-Path $zipOrdner "${MOD_NAME}_Mod-$aktuelleVersion.zip"
+            $quellenMod = @(
+				(Join-Path $PROJEKT_ROOT "SteamMod\About"),
+				(Join-Path $PROJEKT_ROOT "SteamMod\GameData")
+			)
+            Compress-Archive -Path $quellenMod -DestinationPath $pfadMod -Force
+
+            $letzteAktion = "ZIPs erstellt ($aktuelleVersion)"
             Write-Host "ZIP-Dateien erfolgreich in '$zipOrdner' erstellt!" -ForegroundColor Green
             $null = [Console]::ReadKey()
         }
@@ -152,7 +159,7 @@ while ($true) {
             if (-not $steamNotes) { $steamNotes =$letzteNachricht }
             if (-not $steamNotes) {$steamNotes = "Update v$aktuelleVersion" }
 
-            $contentFolder = Join-Path$PROJEKT_ROOT "SteamMod"
+            $contentFolder = Join-Path $PROJEKT_ROOT "SteamMod"
 
             # Here-String sauber beendet
             $vdfContent = @"
@@ -165,7 +172,7 @@ while ($true) {
 }
 "@
             # Set-Content statt Pipe
-            Set-Content -Path $VDF_PFAD -Value$vdfContent -Encoding ascii -Force
+            Set-Content -Path $VDF_PFAD -Value $vdfContent -Encoding ascii -Force
 
             if (Test-Path $STEAMCMD_PFAD) {
                 Start-Process -FilePath $STEAMCMD_PFAD -ArgumentList "+login Bonbonkocher", "+workshop_build_item `"$VDF_PFAD`"", "+quit" -Wait
