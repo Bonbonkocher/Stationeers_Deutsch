@@ -272,5 +272,37 @@
       <Key>StatusIconStunNotice</Key>
       <Value>Betäubt</Value>
     </Record>
+    <Record>
+      <Key>StatusIconGravityDesc</Key>
+      <Value>Erlebt derzeit Schwerelosigkeit</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAccelerationName</Key>
+      <Value>Beschleunigung</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAccelerationDesc</Key>
+      <Value>Ist übermäßigen G-Kräften ausgesetzt</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconSanitationName</Key>
+      <Value>Hygienebedürfnis</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconSoiledName</Key>
+      <Value>Verschmutzt</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHealingName</Key>
+      <Value>Heilung</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStimulantName</Key>
+      <Value>Stimulans</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStunNotice</Key>
+      <Value>Betäubt</Value>
+    </Record>
   </ScreenSpaceToolTips>
 </Language>

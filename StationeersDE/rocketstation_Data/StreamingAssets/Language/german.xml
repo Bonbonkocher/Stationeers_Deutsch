@@ -35,11 +35,6 @@
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
-      <Key>Carbon</Key>
-      <Value>Kohlenstoff</Value>
-      <Unit>g</Unit>
-    </RecordReagent>
-    <RecordReagent>
       <Key>Uranium</Key>
       <Value>Uran</Value>
       <Unit>g</Unit>
@@ -232,6 +227,11 @@
     <RecordReagent>
       <Key>Cocoa</Key>
       <Value>Kakao</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Carbon</Key>
+      <Value>Kohlenstoff</Value>
       <Unit>g</Unit>
     </RecordReagent>
   </Reagents>

@@ -645,5 +645,13 @@
       <Key>SanitationPage</Key>
       <Value></Value>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>CableNetworkPage</Key>
+      <Value></Value>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SanitationPage</Key>
+      <Value></Value>
+    </StationpediaPage>
   </HelpPage>
 </Language>
