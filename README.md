@@ -62,6 +62,7 @@ Dieses Projekt nutzt automatisierte PowerShell-Skripte im Ordner Scripts/, um ma
 
 ### Ordnerstruktur
 
+```
 Stationeers_Deutsch/
 ├── Scripts/                                # PowerShell-Automatisierung
 │   ├── Compare-StationeersLanguage.ps1     # Ermittelt Differenzen
@@ -78,7 +79,7 @@ Stationeers_Deutsch/
 ├── Compare-StationeersLanguage.bat         # 1-Klick-Starter für Diff
 ├── Apply-StationeersTranslations.bat       # 1-Klick-Starter für Import
 └── Git-Helpfer-Start.bat                   # 1-Klick-Starter für Git/Workshop Manager
-
+```
 ---
 
 ### Technische Details zu den Skripten
