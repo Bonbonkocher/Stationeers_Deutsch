@@ -1,15 +1,18 @@
 # Ordner ignorieren
 zip/
 steamcmd/
-#Scripts/
-#Diff_Results/
-#Diff_Translation/
+Scripts/
+Diff_Results/
+Diff_Translation/
+#StationeersDE/
+#StationeersEN/
+#StationeersEN_OLD/
 
 # Bestimmte Dateitypen ignorieren
 *.git
 *.zip
-#*.bat
-#*.ps1
+*.bat
+*.ps1
 *.bak
 *.vdf
 
