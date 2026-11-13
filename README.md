@@ -9,19 +9,19 @@
 > [!CAUTION]
 > Bitte vor dem Überschreiben oder Ändern von Spieldateien immer eine Sicherungskopie der Originaldateien anlegen!
 
-**Spiel-Version:** v0.2.6428.27798
+**Spiel-Version:** 0.2.6429.27802
 
 ---
 
 ## Status der XML-Dateien
 
-| XML-Datei | Übertragen (Struktur) | Übersetzung |
+| XML-Datei | Übertragen (Struktur) | Übersetzung | Saubere Übersetzung |
 | :---: | :---: | :---: |
-| german.xml | [x] | [x] |
-| german_help.xml | [x] | [x] |
-| german_keys.xml | [x] | [x] |
-| german_tips.xml | [x] | [x] |
-| german_tooltips.xml | [x] | [x] |
+| german.xml | [x] | [x] | [ ] |
+| german_help.xml | [x] | [x] | [ ] |
+| german_keys.xml | [x] | [x] | [ ] |
+| german_tips.xml | [x] | [x] | [ ] |
+| german_tooltips.xml | [x] | [x] | [ ] |
 
 ---
 
@@ -29,6 +29,7 @@
 
 - **GitHub:** [Stationeers Deutsch auf GitHub](https://github.com/Bonbonkocher/Stationeers/)
 - **Steam Workshop:** [Stationeers Deutsch-Mod im Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3694636517)
+- **Dokumentation:** [Übersicht hartkodierter UI-Texte](doc/Hardcodes.md)
 - **Inspiriert von:** [[BETA] Deutsche Übersetzung von JonasVerzockt](https://steamcommunity.com/sharedfiles/filedetails/?id=3032318024)
 
 ---
@@ -62,8 +63,10 @@ Dieses Projekt nutzt automatisierte PowerShell-Skripte im Ordner Scripts/, um ma
 
 ### Ordnerstruktur
 
-```
+```text
 Stationeers_Deutsch/
+├── doc/                                    # Dokumentationen
+│   └── Hardcodes.md                        # Liste hartkodierter, unübersetzbarer UI-Texte
 ├── Scripts/                                # PowerShell-Automatisierung
 │   ├── Compare-StationeersLanguage.ps1     # Ermittelt Differenzen
 │   ├── Apply-StationeersTranslations.ps1   # Pflegt übersetzte JSONs ein
@@ -80,6 +83,7 @@ Stationeers_Deutsch/
 ├── Apply-StationeersTranslations.bat       # 1-Klick-Starter für Import
 └── Git-Helpfer-Start.bat                   # 1-Klick-Starter für Git/Workshop Manager
 ```
+
 ---
 
 ### Technische Details zu den Skripten
@@ -119,4 +123,4 @@ Interaktives Terminal-Menü für Git, GitHub und Steam Workshop:
 4. **Übersetzen:** JSON-Dateien übersetzen und in Diff_Translation/ ablegen.
 5. **Importieren:** Apply-StationeersTranslations.bat ausführen (schreibt nach StationeersDE/).
 6. **Validieren:** Compare-StationeersLanguage.bat erneut prüfen (alle Zähler auf 0).
-7. **Veröffentlichen:** Über Git-Helpfer-Start.bat synchronisieren ([4]), testen und zu Steam/GitHub hochladen ([5], [6]).
+7. **Veröffentlichen:** Über Git-Helpfer-Start.bat synchronisieren, testen und zu Steam/GitHub hochladen.

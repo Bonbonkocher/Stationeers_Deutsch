@@ -2561,16 +2561,16 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
       <Description>Der {LINK:Xigo;Xigo} 'Freezy Boi' Wandkühler ergänzt die Wandheizung, welche die Temperatur nur erhöhen kann. Der Wandkühler funktioniert, indem er der umgebenden Atmosphäre Wärme entzieht und diese Wärme in sein Rohrnetz einspeist.
 Um den Wandkühler ordnungsgemäß zu betreiben, müssen Rohre an ihn angeschlossen und das verbundene Rohrnetz mit einer beliebigen Gasart gefüllt werden. Die Wärmekapazität und das Volumen des Gases bestimmen, wie schnell es auf Temperaturänderungen reagiert.
 
-{HEADER:EFFICIENCY}
+{HEADER:EFFIZIENZ}
 Je höher der Temperaturunterschied zwischen dem in den Rohren gespeicherten Gas und dem Raum ist, desto weniger effizient arbeitet der Wandkühler. Um den Wandkühler mit einer akzeptablen Effizienz zu betreiben, muss die Wärme abgeführt werden, die sich in den angeschlossenen Rohren ansammelt. Eine gängige Methode ist es, die Rohre nach draußen zu führen und an dem äußeren Rohrabschnitt Radiatoren zu verwenden, um die Wärme loszuwerden.
 Je weniger effizient der Wandkühler arbeitet, desto weniger Strom verbraucht er. Bei maximaler Effizienz verbraucht er 1010 W. Der Wandkühler kann über Logik-Chips so gesteuert werden, dass er läuft, wenn die Temperatur einen bestimmten Grad erreicht.
 
-{HEADER:ERRORS}
+{HEADER:FEHLER}
 Wenn der Wandkühler einen Fehler blinkt, fehlt einer der folgenden Punkte:
 
 - Rohranschluss zum Wandkühler.
-- Gas in den angeschlossenen Rohren oder der Druck ist zu niedrig.
-- Atmosphäre in der Umgebung oder der Druck ist zu niedrig.
+- Gas in den angeschlossenen Rohren (mindestens 10–15 kPa Druck erforderlich).
+- Atmosphäre in der Umgebung (Druck muss über 5 kPa liegen).
 
 Für weitere Informationen zur Temperatursteuerung konsultiere die {LINK:TemperatureControlPage;temperature control} Handbuchseite.</Description>
     </RecordThing>
@@ -30916,34 +30916,6 @@ Status: {LOCAL:StatusValue}</Value>
       <Value>Nutzlast ({LOCAL:Payload}) kann nur im niedrigen Orbit abgesetzt werden</Value>
     </Record>
     <Record>
-      <Key>RocketDeployFailNoPayload</Key>
-      <Value>Keine Nutzlast zum Absetzen vorhanden</Value>
-    </Record>
-    <Record>
-      <Key>ConstructionBlockedByDynamic</Key>
-      <Value>Bau blockiert durch {LOCAL:Thing}</Value>
-    </Record>
-    <Record>
-      <Key>FoodQualityLow</Key>
-      <Value>Niedrig</Value>
-    </Record>
-    <Record>
-      <Key>FoodQualityOk</Key>
-      <Value>Ok</Value>
-    </Record>
-    <Record>
-      <Key>FoodQualityGood</Key>
-      <Value>Gut</Value>
-    </Record>
-    <Record>
-      <Key>FoodQualityBest</Key>
-      <Value>Hervorragend</Value>
-    </Record>
-    <Record>
-      <Key>TooltipFoodQuality</Key>
-      <Value>Nahrungsqualität {LOCAL:Quality}</Value>
-    </Record>
-    <Record>
       <Key>RocketDeployFailNoFreePosition</Key>
       <Value>{LOCAL:Payload} Alle Einsatzpositionen im niedrigen Orbit sind belegt</Value>
     </Record>
@@ -30954,10 +30926,6 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>RocketCrewModuleMannedTravel</Key>
       <Value>Reise hierhin nicht möglich, solange das Besatzungsmodul bemannt ist</Value>
-    </Record>
-    <Record>
-      <Key>Waste</Key>
-      <Value>Abfall</Value>
     </Record>
     <Record>
       <Key>Use</Key>
